@@ -1,10 +1,7 @@
 import type { AppProps } from 'next/app';
-import { cssVars } from './_app.css';
+
+import '../styles/globals.css';
 
 export default function App({ Component, pageProps }: AppProps) {
-	return (
-		<div className={cssVars}>
-			<Component {...pageProps} />
-		</div>
-	);
+	return <Component {...pageProps} />;
 }
