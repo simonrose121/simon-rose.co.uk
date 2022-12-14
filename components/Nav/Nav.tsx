@@ -1,5 +1,4 @@
 import Image from 'next/image';
-import { useRouter } from 'next/router';
 import * as React from 'react';
 
 import Logo from '../../public/logo.svg';
@@ -27,7 +26,7 @@ export const Nav: React.FC = () => {
 					<div className="hidden lg:block lg:ml-2">
 						<div className="flex">
 							{navLinks.map(n => (
-								<NavLink {...n} />
+								<NavLink {...n} key={n.label} />
 							))}
 						</div>
 					</div>
