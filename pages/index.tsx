@@ -1,23 +1,6 @@
 import Head from 'next/head';
 
-import { Layout } from 'Components';
-
-const fadeInWithDelay = (delay = 0): AnimationProps => ({
-	variants: {
-		initial: {
-			opacity: 0,
-		},
-		animate: {
-			opacity: 1,
-			transition: {
-				delay,
-			},
-		},
-		exit: {
-			opacity: 0,
-		},
-	},
-});
+import { Layout, Profile } from 'Components';
 
 export default function Home() {
 	return (
@@ -29,28 +12,11 @@ export default function Home() {
 			</Head>
 
 			<main className="container mx-auto mt-12">
-				<div className="flex gap-8 items-center">
-					<img
-						src="https://s.gravatar.com/avatar/5a0fd43b00b619257adf46ee7626f254?s=300"
-						alt="Simon Rose profile picture"
-						className="rounded-full h-48 shadow-lg"
-					/>
-					<div className="flex text-sm">
-						Hi, I’m Simon.
-						<br />
-						<br />
-						Welcome to my online CV and blog.
-						<br />
-						<br />
-						I’m an ambitious and driven software engineer, experienced in designing and developing
-						full-stack web applications from web-based games to enterprise-level systems. I have a PhD in
-						Computer Science and several years of professional software development experience, across both
-						industry and academia. I have strong interpersonal and teaching skills and exceptional ability
-						in organisation, planning and time management.
-						<br />
-						<br />
-						I’d love to hear from you, please get in touch!
-					</div>
+				<Profile />
+
+				<div className="flex">
+					<h2 className="w-48">Experience</h2>
+					<div></div>
 				</div>
 			</main>
 		</Layout>
