@@ -1,13 +1,12 @@
-import { Nav } from 'components/Nav';
 import * as React from 'react';
 
-export const Layout: React.FC<{ children: React.ReactNode }> = ({ children }) => {
-	return (
-		<>
-			<div className="bg-zinc-900 h-screen text-white">
-				<Nav />
-				{children}
-			</div>
-		</>
-	);
-};
+import { Nav } from 'components/Nav';
+
+export const Layout: React.FC<{ children: React.ReactNode }> = ({ children }) => (
+	<>
+		<div className="bg-zinc-900 text-white">
+			<Nav />
+			{children}
+		</div>
+	</>
+);

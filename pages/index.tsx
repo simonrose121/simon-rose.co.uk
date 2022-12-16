@@ -18,9 +18,11 @@ const Home: NextPage = () => (
 			<hr className="border-gray-400" />
 			<div className="flex flex-col gap-4">
 				<h2 className="text-2xl flex">Experience</h2>
-				{experiences.map(ex => (
-					<Position information={ex} />
-				))}
+				<div className="flex flex-col gap-20">
+					{experiences.map(ex => (
+						<Position information={ex} />
+					))}
+				</div>
 			</div>
 		</main>
 	</Layout>

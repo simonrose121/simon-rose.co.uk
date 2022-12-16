@@ -11,7 +11,8 @@ export const experiences: Array<Experience> = [
 		position: 'Lead Software Engineer - Front-end',
 		company: '542 Digital',
 		dates: 'July 21 - April 23',
-		description: `I joined 542 Digital as a Senior Front-end Software Engineer, but was quickly promoted when the business started to scale and there became a need for a larger front-end team.
+		description: `
+I joined 542 Digital as a Senior Front-end Software Engineer, but was quickly promoted when the business started to scale and there became a need for a larger front-end team.
 
 During my time as Team Lead, I have:
 
@@ -32,6 +33,27 @@ During my time as Team Lead, I have:
 - Transitioned the business to use Notion and implemented standardised documentation practices.
 - Created and delivered presentations to senior stakeholders on new projects and analysis of existing parts of the business.
 - Advised the business on growth in terms of software development strategy from a small agency to a medium-sized business.
-` as string,
+		`,
+	},
+	{
+		position: 'Chief Technology Officer',
+		company: 'MTa Learning',
+		dates: 'Jan 2020 - April 23',
+		description: `
+I was hired to oversee the development and implementation of the MTa Immersion online platform. 
+
+My time as CTO has involved:
+
+- Architecting the technical solution (full stack TypeScript using Next.js, Nest.js and MongoDB) to replace the legacy platform (Unity and Photon) based on requirements from the Managing Director.
+- Hiring software engineers and designers to implement the platform.
+- Handling the product strategy of MTa Immersion, including roadmapping, task priorities and dependencies.
+- Managing the project using an Agile approach.
+- Developing a productive and open culture within the MTa Immersion team.
+- Implementing processes for software development, communication and handling remote teams.
+- UI/UX design in Figma using a design system of components and variables.
+- Scaling the business through outsourcing and subscription targets.
+- Aligning the MTa Immersion platform with MTa Learning business strategy.
+- Attending expos and selling the MTa Learning products, including MTa Immersion, on the stand.
+		`,
 	},
 ];
