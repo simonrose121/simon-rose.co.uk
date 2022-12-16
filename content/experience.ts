@@ -6,9 +6,12 @@ export type Experience = {
 	description: string;
 }
 
-const descriptions = {
-	fivefourtwo:
-		`I joined 542 Digital as a Senior Front-end Software Engineer, but was quickly promoted when the business started to scale and there became a need for a larger front-end team.
+export const experiences: Array<Experience> = [
+	{
+		position: 'Lead Software Engineer - Front-end',
+		company: '542 Digital',
+		dates: 'July 21 - April 23',
+		description: `I joined 542 Digital as a Senior Front-end Software Engineer, but was quickly promoted when the business started to scale and there became a need for a larger front-end team.
 
 During my time as Team Lead, I have:
 
@@ -29,14 +32,6 @@ During my time as Team Lead, I have:
 - Transitioned the business to use Notion and implemented standardised documentation practices.
 - Created and delivered presentations to senior stakeholders on new projects and analysis of existing parts of the business.
 - Advised the business on growth in terms of software development strategy from a small agency to a medium-sized business.
-`,
-};
-
-export const experiences: Array<Experience> = [
-	{
-		position: 'Lead Software Engineer - Front-end',
-		company: '542 Digital',
-		dates: 'July 21 - April 23',
-		description: descriptions.fivefourtwo,
+` as string,
 	},
 ];
