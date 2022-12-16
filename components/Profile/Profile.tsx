@@ -1,8 +1,8 @@
-import * as React from 'react';
 import { faGithub, faGoodreads, faLinkedin, faResearchgate } from '@fortawesome/free-brands-svg-icons';
 import { faEnvelope, faGraduationCap, IconDefinition } from '@fortawesome/free-solid-svg-icons';
-import Link from 'next/link';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import Link from 'next/link';
+import * as React from 'react';
 
 type Social = {
 	title: string;
@@ -47,14 +47,14 @@ export const Profile: React.FC = () => {
 		<div className="flex items-center gap-8 flex-col md:flex-row p-5 md:p-0">
 			<img
 				src="https://s.gravatar.com/avatar/5a0fd43b00b619257adf46ee7626f254?s=300"
-				alt="Simon Rose profile picture"
+				alt="Simon Rose profile"
 				className="rounded-full w-48 shadow-lg"
 			/>
 			<div className="flex prose flex-col gap-5">
 				<p>Hi, I’m Simon.</p>
 				<p>Welcome to my online CV and blog.</p>
 				<p>
-					I'm an ambitions and driven software engineer, with 10 years of experience building software,
+					I&apos;m an ambitions and driven software engineer, with 10 years of experience building software,
 					managing teams and implementing strategy and process. Most recently I've been working as a Lead
 					Software Engineer and Chief Technology Officer. I have a PhD in Computer Science and Education. I
 					pride myself on my strong interpersonal and teaching skills and exceptional ability in organisation,

@@ -20,6 +20,9 @@
 		"incremental": true,
 		"baseUrl": "./",
 		"paths": {
+			"Content": [
+				"./content/"
+			],
 			"Components": [
 				"./components/"
 			],
