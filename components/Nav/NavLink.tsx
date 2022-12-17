@@ -17,7 +17,7 @@ export const NavLink: React.FC<NavLinkProps> = ({ href, label }) => {
 				px-3 
 				py-2 
 				rounded-md 
-				text-sm 
+				text-md 
 				leading-5 
 				font-medium
 				text-white 

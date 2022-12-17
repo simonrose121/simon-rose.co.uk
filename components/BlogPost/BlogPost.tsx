@@ -1,17 +1,17 @@
-/* eslint-disable jsx-a11y/heading-has-content */
 import { MDXProvider } from '@mdx-js/react';
 import Head from 'next/head';
-import Link from 'next/link';
 import * as React from 'react';
 
 import { Footer, Nav } from 'Components';
 
 const components = {
-	a: ({ ...props }) => <Link href={props.href} className="underline inline" {...props} />,
-	h1: ({ ...props }) => <h1 className="text-3xl mb-6" {...props} />,
-	h2: ({ ...props }) => <h1 className="text-2xl" {...props} />,
-	h3: ({ ...props }) => <h1 className="text-xl" {...props} />,
-	h4: ({ ...props }) => <h1 className="text-lg" {...props} />,
+	/* eslint-disable jsx-a11y/anchor-has-content */
+	a: ({ ...props }) => <a href={props.href} className="underline inline" {...props} />,
+	/* eslint-disable jsx-a11y/heading-has-content */
+	h1: ({ ...props }) => <h1 className="text-3xl mb-6 font-semibold" {...props} />,
+	h2: ({ ...props }) => <h2 className="text-2xl font-semibold" {...props} />,
+	h3: ({ ...props }) => <h3 className="text-xl font-semibold" {...props} />,
+	h4: ({ ...props }) => <h4 className="text-lg font-semibold" {...props} />,
 };
 
 export const BlogPost: React.FC<{
@@ -28,7 +28,7 @@ export const BlogPost: React.FC<{
 				<link rel="icon" href="/favicon.svg" />
 			</Head>
 			<Nav />
-			<div className="container mx-auto mt-10 text-sm flex flex-col gap-4">
+			<div className="container mx-auto mt-10 text-md flex flex-col gap-4">
 				<MDXProvider components={components}>{children}</MDXProvider>
 			</div>
 			<Footer />

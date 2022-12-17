@@ -50,7 +50,7 @@ export const Profile: React.FC = () => {
 				alt="Simon Rose profile"
 				className="rounded-full w-48 shadow-lg"
 			/>
-			<div className="flex text-sm flex-col gap-5">
+			<div className="flex text-md flex-col gap-5">
 				<p>Hi, I’m Simon.</p>
 				<p>Welcome to my online CV and blog.</p>
 				<p>

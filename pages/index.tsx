@@ -36,7 +36,7 @@ const Home: NextPage = () => (
 			<div className="flex flex-col gap-4 p-5 md:p-0">
 				<h2 className="text-2xl flex font-semibold">Publications</h2>
 				<hr className="border-gray-400" />
-				<div className="flex flex-col gap-10 text-sm">
+				<div className="flex flex-col gap-10 text-md">
 					{publications.map((pub, index) => (
 						<Link href={pub.href} key={index}>
 							{pub.citation}

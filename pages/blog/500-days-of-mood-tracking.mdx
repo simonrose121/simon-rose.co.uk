@@ -1,15 +1,13 @@
 import { BlogPost } from 'Components';
+import { posts } from 'Content';
 import Image from 'next/image';
 
 import moodMeterGrid from '../../public/blog/mood-meter-grid.png';
 import moodMeterMonths from '../../public/blog/mood-meter-months.jpeg';
 
-export const meta = {
-	title: '500+ Days of Mood Tracking',
-	date: '2022-11-23 08:30:00 +0000',
-};
+export const post = posts.find(post => post.id === 'mood-meter');
 
-# {meta.title}
+# {post.title}
 
 In the summer of 2020, after a curtailed backpacking trip to South America and 4 months of pandemic-induced lockdown, my mental health was at a low. I was in the midst of a [101 book](2021-01-01-2020-roundup.markdown) year, and in August I read [Permission to Feel by Marc Brackett](https://www.goodreads.com/book/show/43782400-permission-to-feel).
 
@@ -61,4 +59,4 @@ The book itself is well worth a read if you're interested in more of the science
 
 Yes! For as long as I can. There is now a new app, called [How We Feel](https://howwefeel.org/), that builds upon Mood Meter. Brackett has written a [short article](https://www.marcbrackett.com/about/mood-meter-app/) about it. I'll most likely transition over to that at the start of December.
 
-export default ({ children }) => <BlogPost meta={meta}>{children}</BlogPost>;
+export default ({ children }) => <BlogPost meta={post}>{children}</BlogPost>;
