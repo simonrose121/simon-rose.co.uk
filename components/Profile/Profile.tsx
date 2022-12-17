@@ -54,7 +54,7 @@ export const Profile: React.FC = () => {
 				<p>Hi, I’m Simon.</p>
 				<p>Welcome to my online CV and blog.</p>
 				<p>
-					I&apos;m an ambitions and driven software engineer, with 10 years of experience building software,
+					I&apos;m an ambitious and driven software engineer, with 10 years of experience building software,
 					managing teams and implementing strategy and process. I run my own software company,{' '}
 					<Link href="https://www.rose.tech" className="inline underline">
 						RoseTech
@@ -64,7 +64,7 @@ export const Profile: React.FC = () => {
 				</p>
 				<p>
 					I have a PhD in Computer Science and Education, and my research focused on creating games to teach
-					children programming skills. I pride myself on my strong interpersonal and teaching skills and
+					children programming skills. I pride myself on my strong interpersonal and teaching skills, and my
 					exceptional ability in organisation, planning and time management.
 				</p>
 				<p>
