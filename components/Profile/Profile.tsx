@@ -50,26 +50,33 @@ export const Profile: React.FC = () => {
 				alt="Simon Rose profile"
 				className="rounded-full w-48 shadow-lg"
 			/>
-			<div className="flex prose flex-col gap-5">
+			<div className="flex text-sm flex-col gap-5">
 				<p>Hi, I’m Simon.</p>
 				<p>Welcome to my online CV and blog.</p>
 				<p>
 					I&apos;m an ambitions and driven software engineer, with 10 years of experience building software,
-					managing teams and implementing strategy and process. Most recently I've been working as a Lead
-					Software Engineer and Chief Technology Officer. I have a PhD in Computer Science and Education. I
-					pride myself on my strong interpersonal and teaching skills and exceptional ability in organisation,
-					planning and time management.
+					managing teams and implementing strategy and process. I run my own software company,{' '}
+					<Link href="https://www.rose.tech" className="inline underline">
+						RoseTech
+					</Link>
+					, and most recently I&apos;ve been contracting as a Lead Software Engineer and Chief Technology
+					Officer.
 				</p>
 				<p>
-					In my spare time, I love to read, exercise and I'm on a perpetual journey to understand myself. You
-					can read more about that in my{' '}
+					I have a PhD in Computer Science and Education, and my research focused on creating games to teach
+					children programming skills. I pride myself on my strong interpersonal and teaching skills and
+					exceptional ability in organisation, planning and time management.
+				</p>
+				<p>
+					In my spare time, I love to read, travel, exercise and I&apos;m on a perpetual journey to understand
+					and improve myself. You can read more about that in my{' '}
 					<Link href="/blog" className="inline underline">
 						blog
 					</Link>
 					.
 				</p>
 				<p>I’d love to hear from you, please get in touch!</p>
-				<div className="flex prose gap-4 md:prose-lg">
+				<div className="flex gap-4 md:prose-lg">
 					{socialNetworks.map(social => (
 						<Link href={social.href}>
 							<FontAwesomeIcon icon={social.faIcon} className="w-5" />
