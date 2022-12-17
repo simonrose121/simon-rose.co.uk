@@ -10,7 +10,7 @@ export const experiences: Array<Experience> = [
 	{
 		position: 'Lead Software Engineer - Front-end',
 		company: '542 Digital',
-		dates: 'July 21 - April 23',
+		dates: 'July 21 -',
 		description: `
 I joined 542 Digital as a Senior Front-end Software Engineer, but was quickly promoted when the business started to scale and there became a need for a larger front-end team.
 
@@ -29,16 +29,16 @@ During my time as Team Lead, I have:
 - Designed API schemas for integration of front-end applications with the other tech stacks used within the business, mainly Drupal and Laravel.
 - Overhauled 542’s project design phases to use Figma and created design systems and UI/UX designs for front-end projects.
 - Implemented Agile processes to both the front-end and back-end teams at 542, including regular sprint planning, retrospectives and backlog planning.
-- Seconded to the back-end team to implement software development processes such as code review, coding standards, commit message linting and regular process meetings.
+- Seconded to another team within the business to implement software development processes such as code review, coding standards, commit message linting and regular process meetings.
 - Transitioned the business to use Notion and implemented standardised documentation practices.
 - Created and delivered presentations to senior stakeholders on new projects and analysis of existing parts of the business.
-- Advised the business on growth in terms of software development strategy from a small agency to a medium-sized business.
+- Advised the business on growth in terms of software development strategy from a small agency (10 employees) to an SME (40 employees).
 		`,
 	},
 	{
 		position: 'Chief Technology Officer',
 		company: 'MTa Learning',
-		dates: 'Jan 2020 - April 23',
+		dates: 'January 22 -',
 		description: `
 I was hired to oversee the development and implementation of the MTa Immersion online platform. 
 

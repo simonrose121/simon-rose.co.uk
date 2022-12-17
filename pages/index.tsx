@@ -19,8 +19,8 @@ const Home: NextPage = () => (
 			<div className="flex flex-col gap-4">
 				<h2 className="text-2xl flex">Experience</h2>
 				<div className="flex flex-col gap-20">
-					{experiences.map(ex => (
-						<Position information={ex} />
+					{experiences.map((ex, index) => (
+						<Position information={ex} key={index} />
 					))}
 				</div>
 			</div>
