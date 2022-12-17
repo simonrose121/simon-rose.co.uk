@@ -14,7 +14,7 @@ const Blog: NextPage = () => (
 			<link rel="icon" href="/favicon.svg" />
 		</Head>
 
-		<main className="container mx-auto">
+		<main className="container mx-auto p-5 md:p-0">
 			<h1 className="text-3xl mb-6 font-semibold mt-12">Posts</h1>
 			<div className="flex flex-col gap-8">
 				{posts.map(post => (

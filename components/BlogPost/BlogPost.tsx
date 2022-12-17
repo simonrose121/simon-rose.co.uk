@@ -27,7 +27,7 @@ export const BlogPost: React.FC<{
 				<link rel="icon" href="/favicon.svg" />
 			</Head>
 			<Nav />
-			<div className="container mx-auto mt-10 text-md ">
+			<div className="container mx-auto mt-10 text-md p-5 md:p-0">
 				<h1 className="text-3xl font-semibold">{meta.title}</h1>
 				<h6 className="text-sm">{dayjs(meta.date).format('MMM D, YYYY')}</h6>
 				<div className="mt-10 flex flex-col gap-4">

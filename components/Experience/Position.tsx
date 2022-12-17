@@ -1,10 +1,10 @@
-import Link from 'next/link';
 import * as React from 'react';
 import ReactMarkdown from 'react-markdown';
 
 import { PositionType } from 'Content';
 
 const List = ({ ...props }) => <ul className="list-disc ml-7" {...props} />;
+// eslint-disable-next-line jsx-a11y/anchor-has-content
 const Anchor = ({ ...props }) => <a href={props.href} className="underline inline" {...props} />;
 
 type Props = {
