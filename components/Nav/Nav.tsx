@@ -23,7 +23,7 @@ export const Nav: React.FC = () => {
 					<div className="flex items-center px-2 lg:px-0">
 						<Image src={Logo} width={70} height={50} alt="Simon Rose Logo" className="py-1" />
 					</div>
-					<div className="hidden lg:block lg:ml-2">
+					<div className="ml-2">
 						<div className="flex">
 							{navLinks.map(n => (
 								<NavLink {...n} key={n.label} />
