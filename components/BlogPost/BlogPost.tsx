@@ -1,4 +1,5 @@
 import { MDXProvider } from '@mdx-js/react';
+import dayjs from 'dayjs';
 import Head from 'next/head';
 import * as React from 'react';
 
@@ -28,8 +29,12 @@ export const BlogPost: React.FC<{
 				<link rel="icon" href="/favicon.svg" />
 			</Head>
 			<Nav />
-			<div className="container mx-auto mt-10 text-md flex flex-col gap-4">
-				<MDXProvider components={components}>{children}</MDXProvider>
+			<div className="container mx-auto mt-10 text-md ">
+				<h1 className="text-3xl font-semibold">{meta.title}</h1>
+				<h6 className="text-sm">{dayjs(meta.date).format('MMM D, YYYY')}</h6>
+				<div className="mt-10 flex flex-col gap-4">
+					<MDXProvider components={components}>{children}</MDXProvider>
+				</div>
 			</div>
 			<Footer />
 		</div>

@@ -1,13 +1,12 @@
+import Image from 'next/image';
+
 import { BlogPost } from 'Components';
 import { posts } from 'Content';
-import Image from 'next/image';
 
 import moodMeterGrid from '../../public/blog/mood-meter-grid.png';
 import moodMeterMonths from '../../public/blog/mood-meter-months.jpeg';
 
 export const post = posts.find(post => post.id === 'mood-meter');
-
-# {post.title}
 
 In the summer of 2020, after a curtailed backpacking trip to South America and 4 months of pandemic-induced lockdown, my mental health was at a low. I was in the midst of a [101 book](2021-01-01-2020-roundup.markdown) year, and in August I read [Permission to Feel by Marc Brackett](https://www.goodreads.com/book/show/43782400-permission-to-feel).
 
@@ -45,7 +44,7 @@ Along with daily meditation, tracking my mood has had a huge positive impact on 
 
 It has also helped me reflect on what is going on in my life, how that impacts my mood and possible changes I can make to get myself back at baseline. For example, there was a lot of uncertainty in August this year in both my work and personal life, as you can see below.
 
-<Image alt="Mood Meter Months" src={moodMeterMonths} width={700} height={500} />
+<Image alt="Mood Meter Months" src={moodMeterMonths} width={600} height={500} />
 
 Doing it at a set point each day (kind of, there are sometimes hours of variance as you can see in the image above) has forced me to think about how I'm feeling. This is something that I now find myself doing at other points throughout the day.
 

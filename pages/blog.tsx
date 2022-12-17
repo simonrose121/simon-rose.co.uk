@@ -16,13 +16,13 @@ const Blog: NextPage = () => (
 
 		<main className="container mx-auto">
 			<h1 className="text-3xl mb-6 font-semibold mt-12">Posts</h1>
-			<div>
+			<div className="flex flex-col gap-8">
 				{posts.map(post => (
 					<div>
 						<h2 className="text-2xl">
 							<Link href={`/blog/${post.path}`}>{post.title}</Link>
 						</h2>
-						<h4>{dayjs(post.date).format('MMM D, YYYY')}</h4>
+						<h4 className="text-sm">{dayjs(post.date).format('MMM D, YYYY')}</h4>
 					</div>
 				))}
 			</div>
