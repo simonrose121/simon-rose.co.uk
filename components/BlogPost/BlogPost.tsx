@@ -4,6 +4,7 @@ import Head from 'next/head';
 import * as React from 'react';
 
 import { Footer, Nav } from 'Components';
+import { BlogPostMeta } from 'Content';
 
 const components = {
 	/* eslint-disable jsx-a11y/anchor-has-content */
@@ -17,10 +18,7 @@ const components = {
 
 export const BlogPost: React.FC<{
 	children: React.ReactNode;
-	meta: {
-		title: string;
-		date: string;
-	};
+	meta: BlogPostMeta;
 }> = ({ children, meta }) => (
 	<>
 		<div className="bg-zinc-900 text-white">

@@ -1,4 +1,11 @@
-export const posts = [
+export type BlogPostMeta = {
+	id: string;
+	title: string;
+	date: Date;
+	path: string;
+}
+
+export const posts: Array<BlogPostMeta> = [
 	{
 		id: 'mood-meter',
 		title: '500+ Days of Mood Tracking',
