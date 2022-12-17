@@ -91,6 +91,7 @@
 			2,
 			"tab"
 		],
+		"react/jsx-one-expression-per-line": "off",
 		"react/no-array-index-key": 1,
 		"no-shadow": "off",
 		"no-else-return": "error",
