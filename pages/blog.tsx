@@ -18,7 +18,7 @@ const Blog: NextPage = () => (
 			<h1 className="text-3xl mb-6 font-semibold mt-12">Posts</h1>
 			<div className="flex flex-col gap-8">
 				{posts.map(post => (
-					<div>
+					<div key={post.id}>
 						<h2 className="text-2xl">
 							<Link href={`/blog/${post.path}`}>{post.title}</Link>
 						</h2>

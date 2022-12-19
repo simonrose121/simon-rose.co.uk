@@ -8,6 +8,7 @@ type NavLinkProps = {
 };
 export const NavLink: React.FC<NavLinkProps> = ({ href, label }) => {
 	const router = useRouter();
+	const active = href !== '/' ? router.pathname.includes(label.toLowerCase()) : router.pathname === href;
 	return (
 		<Link
 			href={href}
@@ -29,7 +30,7 @@ export const NavLink: React.FC<NavLinkProps> = ({ href, label }) => {
 				ease-in-out
 				cursor-pointer 
 				focus:outline-none
-			    focus:text-white ${router.pathname === href ? 'underline' : ''}`}
+			    focus:text-white ${active ? 'underline' : ''}`}
 		>
 			{label}
 		</Link>
