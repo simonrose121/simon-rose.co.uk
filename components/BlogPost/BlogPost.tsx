@@ -15,6 +15,7 @@ const components = {
 	h2: ({ ...props }) => <h2 className="text-2xl font-semibold" {...props} />,
 	h3: ({ ...props }) => <h3 className="text-xl font-semibold" {...props} />,
 	h4: ({ ...props }) => <h4 className="text-lg font-semibold" {...props} />,
+	blockquote: ({ ...props }) => <i className="italics" {...props} />,
 };
 
 export const BlogPost: React.FC<{
