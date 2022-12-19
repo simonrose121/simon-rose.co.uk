@@ -14,7 +14,7 @@ export const Profile: React.FC = () => {
 	const socialNetworks: Array<Social> = [
 		{
 			title: 'Email',
-			href: 'mailto:simonrose121@gmail.com',
+			href: 'mailto:simon@rose.tech',
 			faIcon: faEnvelope,
 		},
 		{

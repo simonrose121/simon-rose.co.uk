@@ -18,4 +18,10 @@ export const posts: Array<BlogPostMeta> = [
 		date: new Date('2022-01-27'),
 		path: '/500-days-of-headspace',
 	},
+	{
+		id: '2020-reading',
+		title: '101 in 2020 - A Year in Books',
+		date: new Date('2021-01-02'),
+		path: '/2020-reading-roundup',
+	},
 ];
