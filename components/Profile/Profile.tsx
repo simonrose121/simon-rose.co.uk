@@ -78,7 +78,7 @@ export const Profile: React.FC = () => {
 				<p>I’d love to hear from you, please get in touch!</p>
 				<div className="flex gap-4 md:prose-lg">
 					{socialNetworks.map(social => (
-						<Link href={social.href}>
+						<Link href={social.href} key={social.title}>
 							<FontAwesomeIcon icon={social.faIcon} className="w-5" />
 						</Link>
 					))}

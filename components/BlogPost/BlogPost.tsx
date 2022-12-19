@@ -6,10 +6,11 @@ import * as React from 'react';
 import { Footer, Nav } from 'Components';
 import { BlogPostMeta } from 'Content';
 
+// Disable the following rules to allow overriding MDX elements
+/* eslint-disable jsx-a11y/anchor-has-content */
+/* eslint-disable jsx-a11y/heading-has-content */
 const components = {
-	/* eslint-disable jsx-a11y/anchor-has-content */
 	a: ({ ...props }) => <a href={props.href} className="underline inline" {...props} />,
-	/* eslint-disable jsx-a11y/heading-has-content */
 	h1: ({ ...props }) => <h1 className="text-3xl mb-6 font-semibold" {...props} />,
 	h2: ({ ...props }) => <h2 className="text-2xl font-semibold" {...props} />,
 	h3: ({ ...props }) => <h3 className="text-xl font-semibold" {...props} />,
