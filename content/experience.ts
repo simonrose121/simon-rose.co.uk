@@ -16,7 +16,7 @@ I joined 542 Digital as a Senior Front-end Software Engineer, but was quickly pr
 
 During my time as Team Lead, I have:
 
-- Hired software engineers at different levels to build a well functioning and cohesive team.
+- Hired software engineers at different levels to build a productive and cohesive team.
 - Managed the team, and managed projects before 542 hired a dedicated project manager for the team.
 - Overhauled the front-end tech stack from JavaScript/jQuery projects sitting within a larger Laravel application, to standalone TypeScript/React projects that can handle additional complexity.
 - Developed a range of web applications both data-driven and creative using TypeScript, React, Redux and Next.js.
@@ -25,14 +25,14 @@ During my time as Team Lead, I have:
 - Implemented a testing strategy for front-end projects, including using automated tests in Cypress.
 - Implemented a code review process and coding standards.
 - Configured reusable CI/CD pipelines in Gitlab for the front-end projects, including versioning, change logs and linting.
-- Configured application deployments to AWS using Docker/EKS and Amplify.
+- Configured application deployments to AWS using Docker/EKS and Amplify, Vercel and Cloudflare Pages.
 - Designed API schemas for integration of front-end applications with the other tech stacks used within the business, mainly Drupal and Laravel.
-- Overhauled 542’s project design phases to use Figma and created design systems and UI/UX designs for front-end projects.
+- Overhauled 542’s project design phases to use Figma and created design systems and UI/UX designs for front-end projects. I then handed this off when they began hiring a design team.
 - Implemented Agile processes to both the front-end and back-end teams at 542, including regular sprint planning, retrospectives and backlog planning.
 - Seconded to another team within the business to implement software development processes such as code review, coding standards, commit message linting and regular process meetings.
-- Transitioned the business to use Notion and implemented standardised documentation practices.
+- Transitioned the business to use Notion for documentation and implemented standardised documentation practices.
 - Created and delivered presentations to senior stakeholders on new projects and analysis of existing parts of the business.
-- Advised the business on growth in terms of software development strategy from a small agency (10 employees) to an SME (40 employees).
+- Advised the business on growth from a small agency (10 employees) to an SME (40 employees).
 		`,
 	},
 	{
@@ -45,7 +45,7 @@ I was hired to oversee the development and implementation of the MTa Immersion o
 My time as CTO has involved:
 
 - Architecting the technical solution (full stack TypeScript using Next.js, Nest.js and MongoDB) to replace the legacy platform (Unity and Photon) based on requirements from the Managing Director.
-- Hiring software engineers and designers to implement the platform.
+- Hiring software engineers and designers at multiple levels to implement the platform.
 - Handling the product strategy of MTa Immersion, including roadmapping, task priorities and dependencies.
 - Managing the project using an Agile approach.
 - Developing a productive and open culture within the MTa Immersion team.
@@ -113,6 +113,18 @@ This involved:
 		`,
 	},
 	{
+		title: 'Computing Teacher',
+		place: 'Mercia Secondary School',
+		dates: 'September 2018 - July 2019',
+		description: `
+I worked part-time as a Computing teacher at Mercia, teaching the first year group into a new school whilst they hired a full-time member of staff.
+
+This involved:
+
+- Preparing and delivering teaching content in line with the Computer Science curriculum.
+		`,
+	},
+	{
 		title: 'Full-stack Software Engineer',
 		place: '3Squared',
 		dates: 'September 2013 - May 2016',
@@ -121,7 +133,7 @@ I did my industrial placement at 3Squared, and was kept on part-time whilst fini
 
 The position involved:
 
-- Developing full-stack web applications in C# using [ASP.NET](http://asp.net/) MVC and Web Forms.
+- Developing full-stack web applications in C# using ASP.NET MVC and Web Forms.
 - Improving JavaScript and CSS practices.
 - Working in Agile teams.
 - Code reviews.
