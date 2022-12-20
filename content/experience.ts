@@ -8,7 +8,7 @@ export type PositionType = {
 
 export const experiences: Array<PositionType> = [
 	{
-		title: 'Lead Software Engineer - Front-end',
+		title: 'Lead Software Engineer - Front-end (Contract)',
 		place: '542 Digital',
 		dates: 'July 2021 -',
 		description: `
@@ -36,7 +36,7 @@ During my time as Team Lead, I have:
 		`,
 	},
 	{
-		title: 'Chief Technology Officer',
+		title: 'Chief Technology Officer (Contract)',
 		place: 'MTa Learning',
 		dates: 'January 2022 -',
 		description: `
@@ -73,7 +73,7 @@ As part of the role, I have:
 		`,
 	},
 	{
-		title: 'Freelance Software Engineer',
+		title: 'Software Engineer (Freelance)',
 		place: 'Only the Brave and The Black Eye Project',
 		dates: 'April 2021 - September 2021',
 		description: `
@@ -85,7 +85,7 @@ I was retained by two advertising agencies to maintain and build websites. This 
 		`,
 	},
 	{
-		title: 'Senior Research Software Engineer',
+		title: 'Research Software Engineer (Freelance)',
 		place: 'Loughborough University',
 		dates: 'May 2020 - October 2021',
 		description: `
