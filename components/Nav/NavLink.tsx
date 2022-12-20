@@ -3,8 +3,8 @@ import { useRouter } from 'next/router';
 import * as React from 'react';
 
 type NavLinkProps = {
-	href: string;
-	label: string;
+	readonly href: string;
+	readonly label: string;
 };
 export const NavLink: React.FC<NavLinkProps> = ({ href, label }) => {
 	const router = useRouter();

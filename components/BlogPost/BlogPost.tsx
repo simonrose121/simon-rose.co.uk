@@ -20,7 +20,7 @@ const components = {
 
 export const BlogPost: React.FC<{
 	children: React.ReactNode;
-	meta: BlogPostMeta;
+	readonly meta: BlogPostMeta;
 }> = ({ children, meta }) => (
 	<>
 		<div className="bg-zinc-900 text-white">

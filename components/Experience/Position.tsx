@@ -8,7 +8,7 @@ const List = ({ ...props }) => <ul className="list-disc ml-7" {...props} />;
 const Anchor = ({ ...props }) => <a href={props.href} className="underline inline" {...props} />;
 
 type Props = {
-	information: PositionType;
+	readonly information: PositionType;
 };
 export const Position: React.FC<Props> = ({ information }) => (
 	<div className="w-full flex flex-col gap-4">
