@@ -12,7 +12,7 @@ export const experiences: Array<PositionType> = [
 		place: '542 Digital',
 		dates: 'July 2021 -',
 		description: `
-I joined 542 Digital as a Senior Front-end Software Engineer, but was quickly promoted when the business started to scale and there became a need for a larger front-end team.
+I joined 542 Digital as one of two Front-end Software Engineers, but took lead of the team when the business started to scale and there became a need for a larger front-end team.
 
 During my time as Team Lead, I have:
 
@@ -46,8 +46,9 @@ My time as CTO has involved:
 
 - Architecting the technical solution (full stack TypeScript using Next.js, Nest.js and MongoDB) to replace the legacy platform (Unity and Photon) based on requirements from the Managing Director.
 - Hiring software engineers and designers at multiple levels to implement the platform.
-- Handling the product strategy of MTa Immersion, including roadmapping, task priorities and dependencies.
-- Managing the project using an Agile approach.
+- Handling the product strategy of MTa Immersion, including road-mapping, and managing task priorities and dependencies.
+- Ideation and design of bespoke business simulations for large corporate clients.
+- Managing projects using the Agile methodology.
 - Developing a productive and open culture within the MTa Immersion team.
 - Implementing processes for software development, communication and handling remote teams.
 - UI/UX design in Figma using a design system of components and variables.
