@@ -69,8 +69,16 @@ export const Profile: React.FC = () => {
 					exceptional ability in organisation, planning and time management.
 				</p>
 				<p>
-					In my spare time, I love to read, exercise and travel. I&apos;m on a perpetual journey to understand
-					and improve myself, which you can read more about on my{' '}
+					In my spare time, I love to{' '}
+					<Link href="https://www.goodreads.com/user/show/22312452-simon-rose" className="inline underline">
+						read
+					</Link>
+					,{' '}
+					<Link href="https://www.strava.com/athletes/20580417" className="inline underline">
+						exercise
+					</Link>{' '}
+					and travel. I&apos;m on a perpetual journey to understand and improve myself, which you can read
+					more about on my{' '}
 					<Link href="/blog" className="inline underline">
 						blog
 					</Link>
