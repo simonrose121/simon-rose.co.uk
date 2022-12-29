@@ -12,7 +12,7 @@ Games
 
 Supervisors: Dr Jacob Habgood and Dr Tim Jay
 
-I created several web applications during my PhD, including a programming game called [Pirate Plunder](https://pirateplunder.simon-rose.co.uk/), that taught procedural abstraction to children aged 10 and 11. I also taught part of the Computer Science curriculum (Scratch and Excel) to control groups.
+I created several web applications during my PhD, including a programming game called [Pirate Plunder](https://pirateplunder.app), that taught procedural abstraction to children aged 10 and 11. I also taught part of the Computer Science curriculum (Scratch and Excel) to control groups.
 		`,
 	},
 	{
