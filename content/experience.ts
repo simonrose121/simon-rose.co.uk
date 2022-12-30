@@ -86,6 +86,18 @@ I was retained by two advertising agencies to maintain and build websites. This 
 		`,
 	},
 	{
+		title: 'Technical Director',
+		place: 'Rose Brothers Digital',
+		dates: 'August 2020 - March 2022',
+		description: `
+My brother and I started a digital marketing business in lockdown. This involved:
+
+- Designing and developing bespoke websites.
+- SEO optimisation over the lifetime of the sites.
+- Client outreach and lead generation.
+		`,
+	},
+	{
 		title: 'Research Software Engineer (Freelance)',
 		place: 'Loughborough University',
 		dates: 'May 2020 - October 2021',
