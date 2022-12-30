@@ -7,6 +7,12 @@ export type BlogPostMeta = {
 
 export const posts: Array<BlogPostMeta> = [
 	{
+		id: '2022-reading',
+		title: '2022 - A Year in Books',
+		date: new Date('2023-01-01'),
+		path: '2022-reading-roundup',
+	},
+	{
 		id: 'mood-meter',
 		title: '500+ Days of Mood Tracking',
 		date: new Date('2022-11-23'),
@@ -26,7 +32,7 @@ export const posts: Array<BlogPostMeta> = [
 	},
 	{
 		id: '2020-reading',
-		title: '101 in 2020 - A Year in Books',
+		title: '2020 - A Year in Books',
 		date: new Date('2021-01-02'),
 		path: '2020-reading-roundup',
 	},
