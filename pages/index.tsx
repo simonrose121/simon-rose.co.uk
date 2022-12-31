@@ -10,6 +10,10 @@ const Home: NextPage = () => (
 	<Layout>
 		<Head>
 			<title>Home | Simon Rose</title>
+			<meta
+				name="description"
+				content="Simon Rose is software engineer with 10 years of experience and a PhD in Computer Science and Education."
+			/>
 			<link rel="icon" href="/favicon.svg" />
 		</Head>
 
