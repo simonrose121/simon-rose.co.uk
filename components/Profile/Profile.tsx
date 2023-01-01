@@ -60,8 +60,8 @@ export const Profile: React.FC = () => {
 					<Link href="https://www.rose.tech" className="inline underline">
 						RoseTech
 					</Link>
-					, and most recently I&apos;ve been contracting as a Lead Software Engineer (Front-end) and Chief
-					Technology Officer.
+					, and most recently I&apos;ve been contracting as a Lead Software Engineer and Chief Technology
+					Officer.
 				</p>
 				<p>
 					I have a PhD in Computer Science and Education, and my research focused on creating games to teach
