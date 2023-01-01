@@ -1,4 +1,4 @@
-import { BlogPost } from 'Components';
+import { BlogPost, ImageLink } from 'Components';
 import { posts } from 'Content';
 import Image from 'next/image';
 
@@ -33,7 +33,13 @@ I've decided to keep the fans happy, so here are my top 10 books from 2021 split
 
 #### Stillness Is the Key: An Ancient Strategy for Modern Life - Ryan Holiday
 
-<Image alt="Stillness Is the Key book cover" src={stillnessIsTheKey} width={150} height={200} />
+<ImageLink
+	alt="Stillness Is the Key book cover"
+	src={stillnessIsTheKey}
+	width={150}
+	height={200}
+	href="https://www.goodreads.com/book/show/43582733-stillness-is-the-key"
+/>
 
 I've read most of Ryan Holiday's philosophy books, but this is by far my favourite. Stillness Is the Key takes ancient wisdom on the art of stillness from some of history's greatest thinkers (Confucius, Seneca, etc.) and describes succinctly how we can (and should) use it to counteract overstimulation of modern life. As a man who loves silence, solitude and consideration, this really resonated with me, and Holiday's style of writing means that every second sentence is quotable.
 
@@ -47,7 +53,13 @@ I've read most of Ryan Holiday's philosophy books, but this is by far my favouri
 
 #### Think Again: The Power of Knowing What You Don't Know - Adam Grant
 
-<Image alt="Think Again book cover" src={thinkAgain} width={150} height={200} />
+<ImageLink
+	alt="Think Again book cover"
+	src={thinkAgain}
+	width={150}
+	height={200}
+	href="https://www.goodreads.com/book/show/55539565-think-again"
+/>
 
 Think Again is a book with a simple but profound message: be willing to accept when you're wrong. Grant covers the reasons why we get mired in our views and opinions and the strategies we can use to 'rethink' them. He does this on a personal and a cultural level, and explains ways to help others to 'think again' on apt topics such as vaccination.
 
@@ -65,7 +77,13 @@ When have you changed your mind this year?
 
 #### With the End in Mind: Dying, Death, and Wisdom in an Age of Denial - Kathryn Mannix
 
-<Image alt="With the End in Mind book cover" src={withTheEndInMind} width={150} height={200} />
+<ImageLink
+	alt="With the End in Mind book cover"
+	src={withTheEndInMind}
+	width={150}
+	height={200}
+	href="https://www.goodreads.com/book/show/35099051-with-the-end-in-mind"
+/>
 
 Talking about and thinking about death is uncomfortable and even taboo, even though it's something we all deal with throughout (and at the end of) our lives and is a key part of what makes life worth living. Dr. Kathryn Mannix beautifully draws together stories on death from her job as a palliative care nurse. This book was emotional to read, but the message is one of acceptance and that understanding and meeting death gently can have a profound impact on all those affected by the end of a life.
 
@@ -79,7 +97,13 @@ Talking about and thinking about death is uncomfortable and even taboo, even tho
 
 #### This is Going to Hurt: Secret Diaries of a Junior Doctor - Adam Kay
 
-<Image alt="This is Going to Hurt book cover" src={thisIsGoingToHurt} width={150} height={200} />
+<ImageLink
+	alt="This is Going to Hurt book cover"
+	src={thisIsGoingToHurt}
+	width={150}
+	height={200}
+	href="https://www.goodreads.com/book/show/35510008-this-is-going-to-hurt"
+/>
 
 A devastating, heartbreaking and (at times) hilarious account of Adam Kay's time as a junior doctor in the NHS. He manages to combine humour with a shocking indictment of the current state of the NHS in a way that is distinctly British.
 
@@ -91,7 +115,13 @@ A devastating, heartbreaking and (at times) hilarious account of Adam Kay's time
 
 #### The Irrational Ape: Why Flawed Logic Puts us all at Risk and How Critical Thinking Can Save the World - David Robert Grimes
 
-<Image alt="The Irrational Ape book cover" src={irrationalApe} width={150} height={200} />
+<ImageLink
+	alt="The Irrational Ape book cover"
+	src={irrationalApe}
+	width={150}
+	height={200}
+	href="https://www.goodreads.com/book/show/44584488-the-irrational-ape"
+/>
 
 The Irrational Ape is a brilliantly written book that focuses on using critical thinking and the scientific method to conquer the biases, heuristics and flawed logic that evolution has endowed us with, and that are exploited by the modern world, resulting in misinformation, ignorance and mistrust. It's one of those paradigm shifting books that serves as a reminder to always question the assumptions of an argument, that data can be presented to suit that argument and that has developed my understanding why people believe things that are evidently false.
 
@@ -117,7 +147,13 @@ _Note: My fiction reading this year was dominated by re-reading Harry Potter and
 
 #### Project Hail Mary - Andy Weir
 
-<Image alt="Project Hail Mary book cover" src={projectHailMary} width={150} height={200} />
+<ImageLink
+	alt="Project Hail Mary book cover"
+	src={projectHailMary}
+	width={150}
+	height={200}
+	href="https://www.goodreads.com/book/show/54493401-project-hail-mary"
+/>
 
 Project Hail Mary is an incredible book. It's a gripping dual-narrative story about a guy who wakes up from a coma alone on a spaceship, but it also contains philosophical and scientific considerations of the aspects of Earth and humanity that we take for granted but may not be used by other intelligent life, such as how our eyes convert light into a 3D image of our surroundings, and how our bodies are majoratively water.
 
@@ -129,7 +165,13 @@ Project Hail Mary is an incredible book. It's a gripping dual-narrative story ab
 
 #### The Stand - Stephen King
 
-<Image alt="The Stand book cover" src={theStand} width={150} height={200} />
+<ImageLink
+	alt="The Stand book cover"
+	src={theStand}
+	width={150}
+	height={200}
+	href="https://www.goodreads.com/book/show/149267.The_Stand"
+/>
 
 The Stand is a mammoth of a book, the complete and uncut edition comes in at close to 1152 pages, but the story is incredibly well crafted and multi-layered. It follows several characters through an outbreak of a deadly virus (ring any bells?) who's lives become intertwined in a fight between good and evil. There's also a shorter, [800 page original](https://www.goodreads.com/book/show/644283.The_Stand).
 
@@ -137,19 +179,37 @@ The Stand is a mammoth of a book, the complete and uncut edition comes in at clo
 
 #### The Last Command - Timothy Zahn
 
-<Image alt="The Last Command book cover" src={theLastCommand} width={150} height={200} />
+<ImageLink
+	alt="The Last Command book cover"
+	src={theLastCommand}
+	width={150}
+	height={200}
+	href="https://www.goodreads.com/book/show/216422.The_Last_Command"
+/>
 
 This series is a must-read for any Star Wars fans. The first book picks up chronologically after Return of the Jedi and takes Luke, Leia and Han's story to new levels against Admiral Thrawn (a character unique to the books). I loved it because Zahn goes into far more detail on the universe and technology than the films ever did. I've chosen the last book in the series as it was my favourite, but they'd need to be read in order.
 
 #### Prodigal Son - Gregg Andrew Hurwitz
 
-<Image alt="Prodigal Son book cover" src={prodigalSon} width={150} height={200} />
+<ImageLink
+	alt="Prodigal Son book cover"
+	src={prodigalSon}
+	width={150}
+	height={200}
+	href="https://www.goodreads.com/book/show/53138122-prodigal-son"
+/>
 
 The 6th book in the Orphan X series, Prodigal Son continues Evan Smoak's character arc from distant and isolated killer to a man grappling with the pull of family and friends. As always, the book is exceptionally paced.
 
 #### One Hundred Years of Solitude - Gabriel Garcí­a Márquez
 
-<Image alt="One Hundred Years of Solitude book cover" src={oneHundredYearsOfSolitude} width={150} height={200} />
+<ImageLink
+	alt="One Hundred Years of Solitude book cover"
+	src={oneHundredYearsOfSolitude}
+	width={150}
+	height={200}
+	href="https://www.goodreads.com/book/show/320.One_Hundred_Years_of_Solitude"
+/>
 
 One Hundred Years of Solitude is a book that was difficult to read but has grown on me after I finished it. It chronicles 100 years (as the title suggests) of a fictional town in Colombia through foundation, revolution and imperialism. I found it difficult because the protagonists, the Buendia family, are not easy to connect with, but instead serve as a conduit for the history of Latin America. It's nonsensical (Márquez was one of the first proponents of magical realism) and fantastical but this gives the book deeper meaning... in hindsight.
 
