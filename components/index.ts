@@ -5,3 +5,4 @@ export * from './Experience';
 export * from './Footer';
 export * from './BlogPost';
 export * from './ImageLink';
+export * from './Analytics';
