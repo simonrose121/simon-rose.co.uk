@@ -13,7 +13,7 @@ export const Analytics: React.FC = () => {
 					function gtag(){window.dataLayer.push(arguments);}
 					gtag('js', new Date());
 
-					gtag('config', ${gtagId});
+					gtag('config', '${gtagId}');
 				`}
 			</Script>
 		</>
