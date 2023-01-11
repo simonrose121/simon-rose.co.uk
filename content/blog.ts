@@ -3,6 +3,7 @@ export type BlogPostMeta = {
 	title: string;
 	date: Date;
 	path: string;
+	socialImage?: string | undefined;
 }
 
 export const posts: Array<BlogPostMeta> = [
@@ -11,6 +12,7 @@ export const posts: Array<BlogPostMeta> = [
 		title: '2022 - A Year in Books',
 		date: new Date('2023-01-01'),
 		path: '2022-reading-roundup',
+		socialImage: 'https://simon-rose.co.uk/blog/books2022/yearinbooks.png',
 	},
 	{
 		id: 'mood-meter',

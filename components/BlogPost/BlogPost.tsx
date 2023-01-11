@@ -27,6 +27,16 @@ export const BlogPost: React.FC<{
 			<Head>
 				<title>{meta.title} | Simon Rose</title>
 				<link rel="icon" href="/favicon.svg" />
+				{meta.socialImage ? (
+					<>
+						<meta property="og:image" content={meta.socialImage} />
+						<meta property="og:image:type" content="image/png" />
+						<meta property="og:image:width" content="650" />
+						<meta property="og:image:height" content="550" />
+					</>
+				) : (
+					<></>
+				)}
 			</Head>
 			<Analytics />
 			<Nav />
