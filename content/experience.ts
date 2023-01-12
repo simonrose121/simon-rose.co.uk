@@ -34,6 +34,7 @@ During my time as Team Lead, I have:
 - Seconded to another team within the business to implement software development processes such as code review, coding standards, commit message linting and regular process meetings.
 - Transitioned the business to use Notion for documentation and implemented standardised documentation practices.
 - Created and delivered presentations to senior stakeholders on new projects and analysis of existing parts of the business.
+- Conducted interviews for other roles in the business, including Project Managers and Designers.
 - Advised the business on growth from a small agency (10 employees) to an SME (40 employees).
 		`,
 	},
