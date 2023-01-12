@@ -1,3 +1,4 @@
+import Link from 'next/link';
 import * as React from 'react';
 import ReactMarkdown from 'react-markdown';
 
@@ -17,7 +18,13 @@ export const Position: React.FC<Props> = ({ information }) => (
 				<h2 className="font-semibold text-lg">{information.title}</h2>
 				<h4 className="text-md">{information.dates}</h4>
 			</div>
-			<h4 className="text-md">{information.place}</h4>
+			<h4 className="text-md">
+				{information.placeUrl ? (
+					<Link href={information.placeUrl}>{information.place}</Link>
+				) : (
+					information.place
+				)}
+			</h4>
 		</div>
 		<ReactMarkdown
 			components={{

@@ -4,12 +4,14 @@ export type PositionType = {
 	place: string;
 	dates: string;
 	description: string;
+	placeUrl?: string | undefined;
 }
 
 export const experiences: Array<PositionType> = [
 	{
 		title: 'Lead Software Engineer - Front-end (Contract)',
 		place: '542 Digital',
+		placeUrl: 'https://542.digital/',
 		dates: 'July 2021 -',
 		description: `
 I joined 542 Digital as one of two Front-end Software Engineers, but took lead of the team when the business started to scale and there became a need for a larger front-end team.
@@ -38,6 +40,7 @@ During my time as Team Lead, I have:
 	{
 		title: 'Chief Technology Officer (Contract)',
 		place: 'MTa Learning',
+		placeUrl: 'https://www.experientiallearning.org/',
 		dates: 'January 2022 -',
 		description: `
 I was hired to oversee the development and implementation of the MTa Immersion online platform. 
@@ -60,6 +63,7 @@ My time as CTO has involved:
 	{
 		title: 'End Point Assessor',
 		place: 'Sheffield Hallam University',
+		placeUrl: 'https://www.shu.ac.uk/',
 		dates: 'August 2020 -',
 		description: `
 I was brought in as the first End Point Assessor on the Digital and Technology Solutions Specialist Integrated Degree Apprenticeship run by Sheffield Hallam University. Assessors must be actively working in the software industry and have a minimum of a Master’s degree in the field. The assessment is used by software companies of varying sizes to develop their employees and gear them towards management.
@@ -75,19 +79,32 @@ As part of the role, I have:
 	},
 	{
 		title: 'Software Engineer (Freelance)',
-		place: 'Only the Brave and The Black Eye Project',
-		dates: 'April 2021 - September 2021',
+		place: 'The Black Eye Project',
+		placeUrl: 'https://theblackeyeproject.co.uk/',
+		dates: 'May 2021 - September 2021',
 		description: `
-I was retained by two advertising agencies to maintain and build websites. This involved:
+I was retained by The Black Eye Project to maintain and build websites. This involved:
 
 - Working on legacy Vue and WordPress web applications.
 - Developing Vue websites from Adobe XD designs.
+		`,
+	},
+	{
+		title: 'Software Engineer (Freelance)',
+		place: 'Only The Brave',
+		placeUrl: 'https://www.onlythebrave.co.uk/',
+		dates: 'April 2021 - August 2021',
+		description: `
+I was retained by Only The Brave to build banners for ad campaigns and maintain websites. This involved:
+
+- Working on legacy Vue web applications.
 - Building animated HTML banners in Figma for large-scale advertising campaigns.
 		`,
 	},
 	{
 		title: 'Technical Director',
 		place: 'Rose Brothers Digital',
+		placeUrl: 'https://www.rosebrothersdigital.co.uk/',
 		dates: 'August 2020 - March 2022',
 		description: `
 My brother and I started a digital marketing business in lockdown. This involved:
@@ -100,6 +117,7 @@ My brother and I started a digital marketing business in lockdown. This involved
 	{
 		title: 'Research Software Engineer (Freelance)',
 		place: 'Loughborough University',
+		placeUrl: 'https://www.lboro.ac.uk/',
 		dates: 'May 2020 - October 2021',
 		description: `
 I built software for two research projects at Loughborough University, this involved:
@@ -114,6 +132,7 @@ I built software for two research projects at Loughborough University, this invo
 	{
 		title: 'Associate Lecturer',
 		place: 'Sheffield Hallam University',
+		placeUrl: 'https://www.shu.ac.uk/',
 		dates: 'September 2016 - October 2020',
 		description: `
 As part of my PhD scholarship, I lectured on Computer Science and Software Engineering modules. I was then hired on a part-time basis after completing the degree.
@@ -128,6 +147,7 @@ This involved:
 	{
 		title: 'Computing Teacher',
 		place: 'Mercia Secondary School',
+		placeUrl: 'https://www.merciaschool.com/',
 		dates: 'September 2018 - July 2019',
 		description: `
 I worked part-time as a Computing teacher at Mercia, teaching the first year group into a new school whilst they hired a full-time member of staff.
@@ -140,6 +160,7 @@ This involved:
 	{
 		title: 'Full-stack Software Engineer',
 		place: '3Squared',
+		placeUrl: 'https://3squared.com/',
 		dates: 'September 2013 - May 2016',
 		description: `
 I did my industrial placement at 3Squared, and was kept on part-time whilst finishing my degree. I was recently interviewed as a [former placement student](https://www.linkedin.com/posts/3squared-ltd._placements-activity-6789886310145368064-WM6s).
