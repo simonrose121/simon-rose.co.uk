@@ -3,7 +3,7 @@ import dayjs from 'dayjs';
 import Head from 'next/head';
 import * as React from 'react';
 
-import { Analytics, Footer, Nav } from 'Components';
+import { Footer, Nav } from 'Components';
 import { BlogPostMeta } from 'Content';
 
 // Disable the following rules to allow overriding MDX elements
@@ -38,7 +38,6 @@ export const BlogPost: React.FC<{
 					<></>
 				)}
 			</Head>
-			<Analytics />
 			<Nav />
 			<div className="container mx-auto mt-10 text-md p-5 md:p-0">
 				<h1 className="text-3xl font-semibold">{meta.title}</h1>
