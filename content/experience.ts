@@ -17,7 +17,7 @@ export const experiences: Array<PositionType> = [
 As 542 Digital took on more work and expanded into other operating areas, my role transitioned into a combination of Technical Architect and Team Manager.
 
 During my time as Technical Architect and Team Manager, I have:
-- Developed a range of web applications both data-driven and creative using TypeScript, React, Redux and Next.js.
+- Overseen the development of a range of web applications both data-driven and creative using TypeScript, React, Redux and Next.js.
 - Implemented Agile processes to both the front-end and back-end teams at 542, including regular sprint planning, retrospectives and backlog planning.
 - Seconded to another team within the business to implement software development processes such as code review, coding standards, commit message linting and regular process meetings.
 - Configured reusable CI/CD pipelines in Gitlab for the front-end projects, including versioning, change logs and linting.
@@ -40,7 +40,7 @@ During my time as Team Lead, I:
 - Hired software engineers at different levels to build a productive and cohesive team.
 - Managed the team, and managed projects before 542 hired a dedicated project manager for the team.
 - Overhauled the front-end tech stack from JavaScript/jQuery projects sitting within a larger Laravel application, to standalone TypeScript/React projects that can handle additional complexity.
-- Developed a range of web applications both data-driven and creative using TypeScript, React, Redux and Next.js.
+- Overseen the development of a range of web applications both data-driven and creative using TypeScript, React, Redux and Next.js.
 - Implemented a git submodule library for shared functionality across 542 React applications, including components with Storybook and utility functions.
 - Transitioned the business to use Notion for documentation and implemented standardised documentation practices.
 - Implemented a testing strategy for front-end projects, including using automated tests in Cypress.
