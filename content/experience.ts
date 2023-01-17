@@ -20,6 +20,8 @@ During my time as Technical Architect and Team Manager, I have:
 - Overseen the development of a range of web applications both data-driven and creative using TypeScript, React, Redux and Next.js.
 - Implemented Agile processes to both the front-end and back-end teams at 542, including regular sprint planning, retrospectives and backlog planning.
 - Seconded to another team within the business to implement software development processes such as code review, coding standards, commit message linting and regular process meetings.
+- Conducted feasibility studies, business case development and project budgeting.
+- Documented and reported projects across the business. 
 - Configured reusable CI/CD pipelines in Gitlab for the front-end projects, including versioning, change logs and linting.
 - Was instrumental in enabling the business to expand from data-driven applications to creative-driven web applications, which the front-end team now build in Next.js with TypeScript.
 - Created and delivered presentations to senior stakeholders on new projects and analysis of existing parts of the business.
