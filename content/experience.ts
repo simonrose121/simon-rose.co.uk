@@ -53,6 +53,23 @@ My time as CTO has involved:
 		`,
 	},
 	{
+		title: 'End Point Assessor',
+		place: 'Sheffield Hallam University',
+		placeUrl: 'https://www.shu.ac.uk/',
+		dates: 'August 2020 -',
+		description: `
+I was brought in as the first End Point Assessor on the Digital and Technology Solutions Specialist Integrated Degree Apprenticeship run by Sheffield Hallam University. Assessors must be actively working in the software industry and have a minimum of a Master’s degree in the field. The assessment is used by software companies of varying sizes to develop their employees and gear them towards management.
+
+As part of the role, I have:
+
+- Developed an assessment process, including assessment schemes and question frameworks, based on the Government provided standard.
+- Conducted the assessments for 35+ apprentices, each involving a 2 hour discussion and grading a 10,000 word project report.
+- Onboarded two additional assessors, one in Software Engineering and another in Data Analytics.
+- Improved the process and tracking of the assessments year on year, working with the teaching team at Sheffield Hallam.
+- Automated parts of the process such as document generation.
+		`,
+	},
+	{
 		title: 'Lead Software Engineer - Front-end (Contract)',
 		place: '542 Digital',
 		placeUrl: 'https://542.digital/',
@@ -87,23 +104,6 @@ During this time I:
 - Developed web-applications in React.js and JavaScript.
 - Maintained legacy applications in JavaScript and jQuery.
 - Was involved in high-level discussions with internal and external stakeholders on implementation strategy for a large project.
-		`,
-	},
-	{
-		title: 'End Point Assessor',
-		place: 'Sheffield Hallam University',
-		placeUrl: 'https://www.shu.ac.uk/',
-		dates: 'August 2020 -',
-		description: `
-I was brought in as the first End Point Assessor on the Digital and Technology Solutions Specialist Integrated Degree Apprenticeship run by Sheffield Hallam University. Assessors must be actively working in the software industry and have a minimum of a Master’s degree in the field. The assessment is used by software companies of varying sizes to develop their employees and gear them towards management.
-
-As part of the role, I have:
-
-- Developed an assessment process, including assessment schemes and question frameworks, based on the Government provided standard.
-- Conducted the assessments for 35+ apprentices, each involving a 2 hour discussion and grading a 10,000 word project report.
-- Onboarded two additional assessors, one in Software Engineering and another in Data Analytics.
-- Improved the process and tracking of the assessments year on year, working with the teaching team at Sheffield Hallam.
-- Automated parts of the process such as document generation.
 		`,
 	},
 	{
