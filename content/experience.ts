@@ -9,33 +9,58 @@ export type PositionType = {
 
 export const experiences: Array<PositionType> = [
 	{
+		title: 'Technical Architect and Team Manager - Front-end (Contract)',
+		place: '542 Digital',
+		placeUrl: 'https://542.digital/',
+		dates: 'April 2022 -',
+		description: `
+As 542 Digital took on more work and expanded into other operating areas, my role transitioned into a combination of Technical Architect and Team Manager.
+
+In addition to my responsibilities as a Team Lead, I:
+- Was instrumental in enabling the business to expand from data-driven applications to creative-driven web applications, which the front-end team now build in Next.js with TypeScript.
+- Implemented Agile processes to both the front-end and back-end teams at 542, including regular sprint planning, retrospectives and backlog planning.
+- Seconded to another team within the business to implement software development processes such as code review, coding standards, commit message linting and regular process meetings.
+- Configured reusable CI/CD pipelines in Gitlab for the front-end projects, including versioning, change logs and linting.
+- Created and delivered presentations to senior stakeholders on new projects and analysis of existing parts of the business.
+- Conducted interviews for other roles in the business, including Project Managers and Designers.
+- Advised the business on growth from a small agency (10 employees) to an SME (40 employees).
+		`,
+	},
+	{
 		title: 'Lead Software Engineer - Front-end (Contract)',
 		place: '542 Digital',
 		placeUrl: 'https://542.digital/',
-		dates: 'July 2021 -',
+		dates: 'October 2021 - March 2022',
 		description: `
-I joined 542 Digital as one of two Front-end Software Engineers, but took lead of the team when the business started to scale and there became a need for a larger front-end team.
+As 542 Digital grew, I was given the opportunity to lead the front-end team.
 
-During my time as Team Lead, I have:
+During my time as Team Lead, I:
 
 - Hired software engineers at different levels to build a productive and cohesive team.
 - Managed the team, and managed projects before 542 hired a dedicated project manager for the team.
 - Overhauled the front-end tech stack from JavaScript/jQuery projects sitting within a larger Laravel application, to standalone TypeScript/React projects that can handle additional complexity.
 - Developed a range of web applications both data-driven and creative using TypeScript, React, Redux and Next.js.
 - Implemented a git submodule library for shared functionality across 542 React applications, including components with Storybook and utility functions.
-- Been instrumental in enabling the business to expand from data-driven applications to creative-driven web applications, which the front-end team now build in Next.js with TypeScript.
+- Transitioned the business to use Notion for documentation and implemented standardised documentation practices.
 - Implemented a testing strategy for front-end projects, including using automated tests in Cypress.
 - Implemented a code review process and coding standards.
-- Configured reusable CI/CD pipelines in Gitlab for the front-end projects, including versioning, change logs and linting.
 - Configured application deployments to AWS using Docker/EKS and Amplify, Vercel and Cloudflare Pages.
 - Designed API schemas for integration of front-end applications with the other tech stacks used within the business, mainly Drupal and Laravel.
 - Overhauled 542’s project design phases to use Figma and created design systems and UI/UX designs for front-end projects. I then handed this off when they began hiring a design team.
-- Implemented Agile processes to both the front-end and back-end teams at 542, including regular sprint planning, retrospectives and backlog planning.
-- Seconded to another team within the business to implement software development processes such as code review, coding standards, commit message linting and regular process meetings.
-- Transitioned the business to use Notion for documentation and implemented standardised documentation practices.
-- Created and delivered presentations to senior stakeholders on new projects and analysis of existing parts of the business.
-- Conducted interviews for other roles in the business, including Project Managers and Designers.
-- Advised the business on growth from a small agency (10 employees) to an SME (40 employees).
+		`,
+	},
+	{
+		title: 'Senior Software Engineer - Front-end (Contract)',
+		place: '542 Digital',
+		placeUrl: 'https://542.digital/',
+		dates: 'July 2021 - September 2021',
+		description: `
+I initially joined 542 Digital part-time as a Senior Front-end Software Engineer.
+
+During this time I:
+- Developed web-applications in React.js and JavaScript.
+- Maintained legacy applications in JavaScript and jQuery.
+- Was involved in high-level discussions with internal and external stakeholders on implementation strategy for a large project.
 		`,
 	},
 	{
