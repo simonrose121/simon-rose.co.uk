@@ -28,6 +28,29 @@ During my time as Technical Architect and Team Manager, I have:
 		`,
 	},
 	{
+		title: 'Chief Technology Officer (Contract)',
+		place: 'MTa Learning',
+		placeUrl: 'https://www.experientiallearning.org/',
+		dates: 'January 2022 -',
+		description: `
+I was hired to oversee the development and implementation of the MTa Immersion online platform. 
+
+My time as CTO has involved:
+
+- Architecting the technical solution (full stack TypeScript using Next.js, Nest.js and MongoDB) to replace the legacy platform (Unity and Photon) based on requirements from the Managing Director.
+- Hiring software engineers and designers at multiple levels to implement the platform.
+- Handling the product strategy of MTa Immersion, including road-mapping, and managing task priorities and dependencies.
+- Ideation and design of bespoke business simulations for large corporate clients.
+- Managing projects using the Agile methodology.
+- Developing a productive and open culture within the MTa Immersion team.
+- Implementing processes for software development, communication and handling remote teams.
+- UI/UX design in Figma using a design system of components and variables.
+- Scaling the business through outsourcing and subscription targets.
+- Aligning the MTa Immersion platform with MTa Learning business strategy.
+- Attending expos and selling the MTa Learning products, including MTa Immersion, on the stand.
+		`,
+	},
+	{
 		title: 'Lead Software Engineer - Front-end (Contract)',
 		place: '542 Digital',
 		placeUrl: 'https://542.digital/',
@@ -62,29 +85,6 @@ During this time I:
 - Developed web-applications in React.js and JavaScript.
 - Maintained legacy applications in JavaScript and jQuery.
 - Was involved in high-level discussions with internal and external stakeholders on implementation strategy for a large project.
-		`,
-	},
-	{
-		title: 'Chief Technology Officer (Contract)',
-		place: 'MTa Learning',
-		placeUrl: 'https://www.experientiallearning.org/',
-		dates: 'January 2022 -',
-		description: `
-I was hired to oversee the development and implementation of the MTa Immersion online platform. 
-
-My time as CTO has involved:
-
-- Architecting the technical solution (full stack TypeScript using Next.js, Nest.js and MongoDB) to replace the legacy platform (Unity and Photon) based on requirements from the Managing Director.
-- Hiring software engineers and designers at multiple levels to implement the platform.
-- Handling the product strategy of MTa Immersion, including road-mapping, and managing task priorities and dependencies.
-- Ideation and design of bespoke business simulations for large corporate clients.
-- Managing projects using the Agile methodology.
-- Developing a productive and open culture within the MTa Immersion team.
-- Implementing processes for software development, communication and handling remote teams.
-- UI/UX design in Figma using a design system of components and variables.
-- Scaling the business through outsourcing and subscription targets.
-- Aligning the MTa Immersion platform with MTa Learning business strategy.
-- Attending expos and selling the MTa Learning products, including MTa Immersion, on the stand.
 		`,
 	},
 	{
