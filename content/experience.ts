@@ -14,9 +14,7 @@ export const experiences: Array<PositionType> = [
 		placeUrl: 'https://542.digital/',
 		dates: 'April 2022 -',
 		description: `
-As 542 Digital took on more work and expanded into other operating areas, my role transitioned into a combination of Technical Architect and Team Manager.
-
-During my time as Technical Architect and Team Manager, I have:
+As 542 Digital took on more work and expanded into other operating areas, my role transitioned into a combination of Technical Architect and Team Manager. This has involved:
 - Overseen the development of a range of web applications both data-driven and creative using TypeScript, React, Redux and Next.js.
 - Implemented Agile processes to both the front-end and back-end teams at 542, including regular sprint planning, retrospectives and backlog planning.
 - Seconded to another team within the business to implement software development processes such as code review, coding standards, commit message linting and regular process meetings.
