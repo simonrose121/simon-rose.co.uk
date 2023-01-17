@@ -16,14 +16,15 @@ export const experiences: Array<PositionType> = [
 		description: `
 As 542 Digital took on more work and expanded into other operating areas, my role transitioned into a combination of Technical Architect and Team Manager.
 
-In addition to my responsibilities as a Team Lead, I:
-- Was instrumental in enabling the business to expand from data-driven applications to creative-driven web applications, which the front-end team now build in Next.js with TypeScript.
+During my time as Technical Architect and Team Manager, I have:
+- Developed a range of web applications both data-driven and creative using TypeScript, React, Redux and Next.js.
 - Implemented Agile processes to both the front-end and back-end teams at 542, including regular sprint planning, retrospectives and backlog planning.
 - Seconded to another team within the business to implement software development processes such as code review, coding standards, commit message linting and regular process meetings.
 - Configured reusable CI/CD pipelines in Gitlab for the front-end projects, including versioning, change logs and linting.
+- Was instrumental in enabling the business to expand from data-driven applications to creative-driven web applications, which the front-end team now build in Next.js with TypeScript.
 - Created and delivered presentations to senior stakeholders on new projects and analysis of existing parts of the business.
 - Conducted interviews for other roles in the business, including Project Managers and Designers.
-- Advised the business on growth from a small agency (10 employees) to an SME (40 employees).
+- Advised the business on growth from a small agency (10 employees) to an SME (40 employees) and been treated as a de-facto Director in terms of financial and business discussions.
 		`,
 	},
 	{
@@ -32,7 +33,7 @@ In addition to my responsibilities as a Team Lead, I:
 		placeUrl: 'https://542.digital/',
 		dates: 'October 2021 - March 2022',
 		description: `
-As 542 Digital grew, I was given the opportunity to lead the front-end team.
+As 542 Digital grew and I transitioned to 4-days a week. I was given the opportunity to lead the front-end team.
 
 During my time as Team Lead, I:
 
