@@ -24,7 +24,7 @@ During my time as Technical Architect and Team Manager, I have:
 - Was instrumental in enabling the business to expand from data-driven applications to creative-driven web applications, which the front-end team now build in Next.js with TypeScript.
 - Created and delivered presentations to senior stakeholders on new projects and analysis of existing parts of the business.
 - Conducted interviews for other roles in the business, including Project Managers and Designers.
-- Advised the business on growth from a small agency (10 employees) to an SME (40 employees) and been treated as a de-facto Director in terms of financial and business discussions.
+- Advised the business on growth from a small agency (10 employees) to an SME (40 employees) and acted as a de-facto Director in terms of financial and business discussions.
 		`,
 	},
 	{
