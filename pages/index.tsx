@@ -46,7 +46,7 @@ const Home: NextPage = () => (
 							<li>C#</li>
 							<li>Mocha/Chai/Jest/Cypress</li>
 							<li>MongoDB</li>
-							<li>Deployments using AWS, Firebase and Ubuntu servers</li>
+							<li>Deployments using Vercel, Netlify, AWS, Google Firebase and Ubuntu servers</li>
 							<li>Pipeline configuration</li>
 							<li>Testing</li>
 						</ul>
