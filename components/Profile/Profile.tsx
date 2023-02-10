@@ -60,13 +60,13 @@ export const Profile: React.FC = () => {
 					<Link href="https://www.rose.tech" className="inline underline">
 						RoseTech
 					</Link>
-					, and most recently I&apos;ve been contracting as a Technical Architect/Team Manager and Chief
-					Technology Officer.
+					, and most recently I&apos;ve been contracting as a Senior Technical Manager and Chief Technology
+					Officer.
 				</p>
 				<p>
 					I have a PhD in Computer Science and Education, and my research focused on creating games to teach
 					children programming skills. I pride myself on my strong interpersonal and teaching skills, and my
-					exceptional ability in organisation, planning and time management.
+					exceptional ability in organisation, process implementation and attention to detail.
 				</p>
 				<p>
 					In my spare time, I love to{' '}

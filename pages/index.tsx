@@ -29,6 +29,60 @@ const Home: NextPage = () => (
 				</div>
 			</div>
 			<div className="flex flex-col gap-4 p-5 md:p-0">
+				<h2 className="text-2xl flex font-semibold">Skills</h2>
+				<hr className="border-gray-400" />
+				<div className="flex justify-between gap-10 md:gap-0 flex-col md:flex-row">
+					<div className="flex flex-col md:basis-1/3">
+						<p className="font-bold">Technical</p>
+						<ul className="list-disc ml-7">
+							<li>React (and Next.js)</li>
+							<li>AngularJS/RXJS</li>
+							<li>Vue.js (and Nuxt.js)</li>
+							<li>TypeScript/JavaScript</li>
+							<li>CSS/SCSS</li>
+							<li>HTML</li>
+							<li>Node.js</li>
+							<li>Express.js</li>
+							<li>C#</li>
+							<li>Mocha/Chai/Jest/Cypress</li>
+							<li>MongoDB</li>
+							<li>Deployments using AWS, Firebase and Ubuntu servers</li>
+							<li>Pipeline configuration</li>
+							<li>Testing</li>
+						</ul>
+					</div>
+					<div className="flex flex-col md:basis-1/3">
+						<p className="font-bold">Design and Project Management</p>
+						<ul className="list-disc ml-7">
+							<li>UI/UX design</li>
+							<li>Figma</li>
+							<li>InDesign</li>
+							<li>Photoshop</li>
+							<li>Jira/Linear</li>
+							<li>Agile</li>
+						</ul>
+					</div>
+					<div className="flex flex-col md:basis-1/3">
+						<p className="font-bold">Soft Skills</p>
+						<ul className="list-disc ml-7">
+							<li>Organisation</li>
+							<li>Planning</li>
+							<li>Adaptability</li>
+							<li>Communication</li>
+							<li>Attention to detail</li>
+							<li>Pragmatism</li>
+							<li>Evaluating competency</li>
+							<li>Situational awareness</li>
+							<li>Leadership</li>
+							<li>Business awareness</li>
+							<li>Educating</li>
+							<li>Presenting</li>
+							<li>Building productive team cultures</li>
+						</ul>
+					</div>
+				</div>
+			</div>
+			<div className="flex flex-col gap-4 p-5 md:p-0">
 				<h2 className="text-2xl flex font-semibold">Education</h2>
 				<hr className="border-gray-400" />
 				<div className="flex flex-col gap-10">
