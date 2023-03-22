@@ -15,7 +15,7 @@ export const experiences: Array<PositionType> = [
 		dates: 'April 2022 -',
 		description: `
 As 542 Digital took on more work and expanded into other operating areas, my responsibilities broadened and my role transitioned to a Senior Technical Manager. During this time I have:
-- Overseen the development of 19 web applications both data-driven and creative using TypeScript, React, Redux and Next.js.
+- Overseen the development of 19 fintech web applications, both data-driven and creative, using TypeScript, React, Redux and Next.js.
 - Implemented Agile processes to both the front-end and back-end teams at 542, including regular sprint planning, retrospectives and backlog planning.
 - Seconded to another team within the business to implement software development processes such as code review, coding standards, commit message linting and regular process meetings.
 - Conducted feasibility studies, business case development and project budgeting.
@@ -62,7 +62,7 @@ I was brought in as the first End Point Assessor on the Digital and Technology S
 As part of the role, I have:
 
 - Developed an assessment process, including assessment schemes and question frameworks, based on the Government provided standard.
-- Conducted the assessments for 35+ apprentices, each involving a 2 hour discussion and grading a 10,000 word project report.
+- Conducted the assessments for 40 apprentices over 3 years, each involving a 2 hour discussion and grading a 10,000 word project report.
 - Onboarded two additional assessors, one in Software Engineering and another in Data Analytics.
 - Improved the process and tracking of the assessments year on year, working with the teaching team at Sheffield Hallam.
 - Automated parts of the process such as document generation.
@@ -81,7 +81,7 @@ During my time as Team Lead, I:
 - Hired software engineers at different levels to build a productive and cohesive team.
 - Managed the team, and managed projects before 542 hired a dedicated project manager for the team.
 - Overhauled the front-end tech stack from JavaScript/jQuery projects sitting within a larger Laravel application, to standalone TypeScript/React projects that can handle additional complexity.
-- Overseen the development of 8 web applications both data-driven and creative using TypeScript, React, Redux and Next.js.
+- Overseen the development of 8 fintech web applications, both data-driven and creative, using TypeScript, React, Redux and Next.js.
 - Implemented a git submodule library for shared functionality across 542 React applications, including components with Storybook and utility functions.
 - Transitioned the business to use Notion for documentation and implemented standardised documentation practices.
 - Implemented a testing strategy for front-end projects, including using automated tests in Cypress.
@@ -100,7 +100,7 @@ During my time as Team Lead, I:
 I initially joined 542 Digital part-time as a Senior Front-end Software Engineer.
 
 During this time I:
-- Developed 2 web applications in React.js and JavaScript.
+- Developed 2 web applications in React.js, JavaScript and Highcharts.
 - Maintained 4 legacy applications in JavaScript and jQuery.
 - Was involved in high-level discussions with internal and external stakeholders on implementation strategy for a large project.
 		`,
