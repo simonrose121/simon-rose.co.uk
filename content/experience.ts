@@ -15,7 +15,7 @@ export const experiences: Array<PositionType> = [
 		dates: 'April 2022 -',
 		description: `
 As 542 Digital took on more work and expanded into other operating areas, my responsibilities broadened and my role transitioned to a Senior Technical Manager. During this time I have:
-- Overseen the development of 19 fintech web applications, both data-driven and creative, using TypeScript, React, Redux and Next.js.
+- Overseen the development of 19 fintech web applications, both data-driven and creative, using TypeScript, React, Redux and Next.js. Most of these applications are restricted access, but publicly available examples include [Power With Gold](https://powerwithgold.mygoldguide.in/), [invest.gold](https://invest.gold/) and [Qaurum](https://qaurum.gold.org/).
 - Implemented Agile processes to both the front-end and back-end teams at 542, including regular sprint planning, retrospectives and backlog planning.
 - Seconded to another team within the business to implement software development processes such as code review, coding standards, commit message linting and regular process meetings.
 - Conducted feasibility studies, business case development and project budgeting.
@@ -38,7 +38,7 @@ I was hired to oversee the development and implementation of the MTa Immersion o
 My time as CTO has involved:
 
 - Architecting the technical solution (full stack TypeScript using Next.js, Nest.js and MongoDB) to replace the legacy platform (Unity and Photon) based on requirements from the Managing Director.
-- Overseeing the delivery of 18 web applications and APIs for the platform activities using the above technology stack.
+- Overseeing the delivery of 18 web applications and APIs for the platform activities using the above technology stack for [MTa Immersion](https://www.experientiallearning.org/online/).
 - Hiring software engineers and designers at multiple levels to implement the platform.
 - Handling the product strategy of MTa Immersion, including road-mapping, and managing task priorities and dependencies.
 - Ideation and design of bespoke business simulations for large corporate clients.
@@ -81,7 +81,7 @@ During my time as Team Lead, I:
 - Hired software engineers at different levels to build a productive and cohesive team.
 - Managed the team, and managed projects before 542 hired a dedicated project manager for the team.
 - Overhauled the front-end tech stack from JavaScript/jQuery projects sitting within a larger Laravel application, to standalone TypeScript/React projects that can handle additional complexity.
-- Overseen the development of 8 fintech web applications, both data-driven and creative, using TypeScript, React, Redux and Next.js.
+- Overseen the development of 8 fintech web applications, both data-driven and creative, using TypeScript, React, Redux and Next.js. Publicly available examples include [542 Digital's Website](https://542.digital/) and the [Gold Return Attribution Model](https://www.gold.org/goldhub/tools/gold-return-attribution-model)
 - Implemented a git submodule library for shared functionality across 542 React applications, including components with Storybook and utility functions.
 - Transitioned the business to use Notion for documentation and implemented standardised documentation practices.
 - Implemented a testing strategy for front-end projects, including using automated tests in Cypress.
@@ -100,7 +100,7 @@ During my time as Team Lead, I:
 I initially joined 542 Digital part-time as a Senior Front-end Software Engineer.
 
 During this time I:
-- Developed 2 web applications in React.js, JavaScript and Highcharts.
+- Developed 2 web applications in React.js, JavaScript and Highcharts. Both these tools are restricted access.
 - Maintained 4 legacy applications in JavaScript and jQuery.
 - Was involved in high-level discussions with internal and external stakeholders on implementation strategy for a large project.
 		`,
@@ -111,10 +111,10 @@ During this time I:
 		placeUrl: 'https://theblackeyeproject.co.uk/',
 		dates: 'May 2021 - September 2021',
 		description: `
-I was retained by The Black Eye Project to maintain and build websites. This involved:
+I maintain and built websites for The Black Eye Project. This involved:
 
-- Working on legacy Vue and WordPress web applications.
-- Developing Vue websites from Adobe XD designs.
+- Working on legacy Vue and WordPress web applications. Examples include and [The Black Eye Project](https://theblackeyeproject.co.uk/) and [Mudd Tiling](https://mudd-tiling.com/).
+- Developing Vue websites from Adobe XD designs. Examples include [The Synergy Building](https://www.thesynergybuilding.com/).
 		`,
 	},
 	{
@@ -123,10 +123,10 @@ I was retained by The Black Eye Project to maintain and build websites. This inv
 		placeUrl: 'https://www.onlythebrave.co.uk/',
 		dates: 'April 2021 - August 2021',
 		description: `
-I was retained by Only The Brave to build banners for ad campaigns and maintain websites. This involved:
+I built banners for ad campaigns and maintained websites for Only The Brave. This involved:
 
-- Working on legacy Vue web applications.
-- Building animated HTML banners in Figma for large-scale advertising campaigns.
+- Working on legacy Vue web applications. Examples include [Giraffe](https://www.giraffe.net/).
+- Building animated HTML banners in Figma for large-scale advertising campaigns for Lloyds Pharmacy.
 		`,
 	},
 	{
