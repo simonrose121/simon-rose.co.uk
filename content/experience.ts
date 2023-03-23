@@ -111,7 +111,7 @@ During this time I:
 		placeUrl: 'https://theblackeyeproject.co.uk/',
 		dates: 'May 2021 - September 2021',
 		description: `
-I maintain and built websites for The Black Eye Project. This involved:
+I maintained and built websites for The Black Eye Project. This involved:
 
 - Working on legacy Vue and WordPress web applications. Examples include and [The Black Eye Project](https://theblackeyeproject.co.uk/) and [Mudd Tiling](https://mudd-tiling.com/).
 - Developing Vue websites from Adobe XD designs. Examples include [The Synergy Building](https://www.thesynergybuilding.com/).
