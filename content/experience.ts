@@ -24,7 +24,7 @@ As 542 Digital took on more work and expanded into other operating areas, my res
 - Was instrumental in enabling the business to expand from data-driven applications to creative-driven web applications, which the front-end team now build in Next.js with TypeScript.
 - Created and delivered presentations to senior stakeholders on new projects and analysis of existing parts of the business.
 - Conducted interviews for other roles in the business, including Project Managers and Designers.
-- Advised the business on growth from a small agency (10 employees) to an SME (40 employees) and acted as a de-facto Director in terms of financial and business discussions.
+- Consulted the business on growth from a small agency (10 employees) to an SME (40 employees) and acted as a de-facto Director in terms of financial and business discussions.
 		`,
 	},
 	{
