@@ -146,7 +146,7 @@ My brother and I started a digital marketing business in lockdown. This involved
 		title: 'Research Software Engineer (Freelance)',
 		place: 'Loughborough University',
 		placeUrl: 'https://www.lboro.ac.uk/',
-		dates: 'May 2020 - October 2021',
+		dates: 'May 2020 - March 2023',
 		description: `
 I built software for two research projects at Loughborough University, this involved:
 
