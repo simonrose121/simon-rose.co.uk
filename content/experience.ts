@@ -12,7 +12,7 @@ export const experiences: Array<PositionType> = [
 		title: 'Senior Technical Manager - Front-end (Contract)',
 		place: '542 Digital',
 		placeUrl: 'https://542.digital/',
-		dates: 'April 2022 -',
+		dates: 'April 2022 - March 2023',
 		description: `
 As 542 Digital took on more work and expanded into other operating areas, my responsibilities broadened and my role transitioned to a Senior Technical Manager. During this time I have:
 - Overseen the development of 19 fintech web applications, both data-driven and creative, using TypeScript, React, Redux and Next.js. Most of these applications are restricted access, but publicly available examples include [Power With Gold](https://powerwithgold.mygoldguide.in/), [invest.gold](https://invest.gold/) and [Gold Return Attribution Model](https://www.gold.org/goldhub/tools/gold-return-attribution-model).
@@ -31,7 +31,7 @@ As 542 Digital took on more work and expanded into other operating areas, my res
 		title: 'Chief Technology Officer (Contract)',
 		place: 'MTa Learning',
 		placeUrl: 'https://www.experientiallearning.org/',
-		dates: 'January 2022 -',
+		dates: 'January 2022 - March 2023',
 		description: `
 I was hired to oversee the development and implementation of the MTa Immersion online platform. 
 
