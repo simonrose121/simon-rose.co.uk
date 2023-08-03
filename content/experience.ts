@@ -16,8 +16,10 @@ export const experiences: Array<PositionType> = [
 		description: `
 As 542 Digital took on more work and expanded into other operating areas, my responsibilities broadened and my role transitioned to a Senior Technical Manager. During this time I have:
 - Overseen the development of 19 fintech web applications, both data-driven and creative, using TypeScript, React, Redux and Next.js. Most of these applications are restricted access, but publicly available examples include [Power With Gold](https://powerwithgold.mygoldguide.in/), [invest.gold](https://invest.gold/) and [Gold Return Attribution Model](https://www.gold.org/goldhub/tools/gold-return-attribution-model).
+- Lead a team of 5 engineers, supporting their personal and professional development through 1:1s and continuous feedback. 
 - Implemented Agile processes to both the front-end and back-end teams at 542, including regular sprint planning, retrospectives and backlog planning.
 - Seconded to another team within the business to implement software development processes such as code review, coding standards, commit message linting and regular process meetings.
+- Worked across technical teams to produce cross-platform solutions.
 - Conducted feasibility studies, business case development and project budgeting.
 - Documented and reported projects across the business. 
 - Configured reusable CI/CD pipelines in Gitlab for the front-end projects, including versioning, change logs and linting.
@@ -79,7 +81,7 @@ As 542 Digital grew and I transitioned to 4-days a week. I was given the opportu
 During my time as Team Lead, I:
 
 - Hired software engineers at different levels to build a productive and cohesive team.
-- Managed the team, and managed projects before 542 hired a dedicated project manager for the team.
+- Managed a team of 5 engineers, and managed projects before 542 hired a dedicated project manager for the team.
 - Overhauled the front-end tech stack from JavaScript/jQuery projects sitting within a larger Laravel application, to standalone TypeScript/React projects that can handle additional complexity.
 - Overseen the development of 8 fintech web applications, both data-driven and creative, using TypeScript, React, Redux and Next.js. Publicly available examples include [542 Digital's Website](https://542.digital/) and [Qaurum](https://qaurum.gold.org/).
 - Implemented a git submodule library for shared functionality across 542 React applications, including components with Storybook and utility functions.
