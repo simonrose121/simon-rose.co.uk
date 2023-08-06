@@ -15,7 +15,7 @@ const Blog: NextPage = () => (
 				// eslint-disable-next-line max-len
 				content="Simon Rose's blog contains posts on the books he's read and his perpetual journey to understand the self."
 			/>
-			<link rel="icon" href="/favicon.svg" />
+			<link rel="icon" href="/favicon.png" />
 		</Head>
 
 		<main className="container mx-auto p-5 md:p-0">

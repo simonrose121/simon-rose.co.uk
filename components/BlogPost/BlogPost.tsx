@@ -26,7 +26,7 @@ export const BlogPost: React.FC<{
 		<div className="bg-zinc-900 text-white">
 			<Head>
 				<title>{meta.title} | Simon Rose</title>
-				<link rel="icon" href="/favicon.svg" />
+				<link rel="icon" href="/favicon.png" />
 				{meta.socialImage ? (
 					<>
 						<meta property="og:image" content={meta.socialImage} />

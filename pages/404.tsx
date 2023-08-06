@@ -9,7 +9,7 @@ const CustomNotFound: NextPage = (): JSX.Element => (
 	<Layout>
 		<Head>
 			<title>Page Not Found | Simon Rose</title>
-			<link rel="icon" href="/favicon.svg" />
+			<link rel="icon" href="/favicon.png" />
 		</Head>
 
 		<main className="container mx-auto mt-12 flex flex-col items-center">
