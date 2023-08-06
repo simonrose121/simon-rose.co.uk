@@ -4,7 +4,11 @@ import ReactMarkdown from 'react-markdown';
 
 import { PositionType } from 'Content';
 
-const List = ({ ...props }) => <ul className="list-disc ml-7" {...props} />;
+// eslint-disable-next-line no-confusing-arrow
+const List = ({ ordered, ...props }) =>
+	// eslint-disable-next-line implicit-arrow-linebreak
+	ordered ? <ol className="list-decimal ml-7" {...props} /> : <ul className="list-disc ml-7" {...props} />;
+
 // eslint-disable-next-line jsx-a11y/anchor-has-content
 const Anchor = ({ ...props }) => <a href={props.href} className="underline inline" {...props} />;
 
