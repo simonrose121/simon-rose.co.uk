@@ -47,7 +47,7 @@ export const Profile: React.FC = () => {
 		<div className="flex items-center gap-8 flex-col md:flex-row p-5 md:p-0">
 			{/* Use an img here to avoid Next Image being in a span */}
 			<img
-				src="https://s.gravatar.com/avatar/5a0fd43b00b619257adf46ee7626f254?s=300"
+				src="https://s.gravatar.com/avatar/5a0fd43b00b619257adf46ee7626f254?s=500"
 				alt="Simon Rose profile"
 				className="rounded-full w-48 shadow-lg"
 			/>
