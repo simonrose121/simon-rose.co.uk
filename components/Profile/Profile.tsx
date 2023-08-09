@@ -55,18 +55,24 @@ export const Profile: React.FC = () => {
 				<p>Hi, I’m Simon.</p>
 				<p>Welcome to my online CV and blog.</p>
 				<p>
-					I&apos;m an ambitious and driven software engineer, with 10 years of experience building software,
-					managing teams and implementing strategy and process. I run my own software company,{' '}
+					I am a driven and adaptable software engineer who is experienced in building and leading
+					high-performing, innovative and results-driven software development teams. I have led the design,
+					development and delivery of complex software projects across finance, education and academia.
+				</p>
+				<p>
+					I run my own software company,{' '}
 					<Link href="https://www.rose.tech" className="inline underline">
 						RoseTech
 					</Link>
-					, and most recently I&apos;ve been contracting as a Senior Technical Manager and Chief Technology
-					Officer.
+					, and have most recently been contracting as a Senior Technical Manager and Chief Technology
+					Officer. My technical skills focus on front-end JavaScript and TypeScript development, including
+					React, Angular and Vue. I am also an assessor on the Digital and Technology Solutions Specialist
+					Integrated Degree Apprenticeship, helping to shape the next generation of tech leaders.
 				</p>
 				<p>
-					I have a PhD in Computer Science and Education, and my research focused on creating games to teach
-					children programming skills. I pride myself on my strong interpersonal and teaching skills, and my
-					exceptional ability in organisation, process implementation and attention to detail.
+					I pride myself on my leadership and communication skills. I am exceptional at organisation, process
+					implementation and attention to detail. I have a PhD in Computer Science and Education, and my
+					research focused on creating games to teach children programming skills.
 				</p>
 				<p>
 					In my spare time, I love to{' '}
