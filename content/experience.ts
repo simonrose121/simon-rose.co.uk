@@ -16,13 +16,12 @@ export const experiences: Array<PositionType> = [
 		description: `
 As 542 Digital took on more work and expanded into other operating areas, my responsibilities broadened and my role transitioned to a Senior Technical Manager. During this time I have:
 - Overseen the development of 19 fintech web applications, both data-driven and creative, using TypeScript, React, Redux and Next.js. Most of these applications are restricted access, but publicly available examples include [Power With Gold](https://powerwithgold.mygoldguide.in/), [invest.gold](https://invest.gold/) and [Gold Return Attribution Model](https://www.gold.org/goldhub/tools/gold-return-attribution-model).
-- Lead a team of 5 engineers, supporting their personal and professional development through 1:1s and continuous feedback. 
+- Led a team of 5 engineers, supporting their personal and professional development through 1:1s and continuous feedback. 
 - Implemented Agile processes to both the front-end and back-end teams at 542, including regular sprint planning, retrospectives and backlog planning.
 - Seconded to another team within the business to implement software development processes such as code review, coding standards, commit message linting and regular process meetings.
 - Worked across technical teams to produce cross-platform solutions.
 - Conducted feasibility studies, business case development and project budgeting.
 - Documented and reported projects across the business. 
-- Configured reusable CI/CD pipelines in Gitlab for the front-end projects, including versioning, change logs and linting.
 - Was instrumental in enabling the business to expand from data-driven applications to creative-driven web applications, which the front-end team now build in Next.js with TypeScript.
 - Created and delivered presentations to senior stakeholders on new projects and analysis of existing parts of the business.
 - Conducted interviews for other roles in the business, including Project Managers and Designers.
@@ -54,7 +53,7 @@ My time as CTO has involved:
 		`,
 	},
 	{
-		title: 'End Point Assessor',
+		title: 'End Point Assessor (Part-time)',
 		place: 'Sheffield Hallam University',
 		placeUrl: 'https://www.shu.ac.uk/',
 		dates: 'August 2020 -',
@@ -89,6 +88,7 @@ During my time as Team Lead, I:
 - Implemented a testing strategy for front-end projects, including using automated tests in Cypress.
 - Implemented a code review process and coding standards.
 - Configured application deployments to AWS using Docker/EKS and Amplify, Vercel and Cloudflare Pages.
+- Configured reusable CI/CD pipelines in Gitlab for the front-end projects, including versioning, change logs and linting.
 - Designed API schemas for integration of front-end applications with the other tech stacks used within the business, mainly Drupal and Laravel.
 - Overhauled 542’s project design phases to use Figma and created design systems and UI/UX designs for front-end projects. I then handed this off when they began hiring a design team.
 		`,
@@ -102,7 +102,7 @@ During my time as Team Lead, I:
 I initially joined 542 Digital part-time as a Senior Front-end Software Engineer.
 
 During this time I:
-- Developed 2 web applications in React.js, JavaScript and Highcharts. Both these tools are restricted access.
+- Developed 2 web applications in React, JavaScript and Highcharts. Both these tools are restricted access.
 - Maintained 4 legacy applications in JavaScript and jQuery.
 - Was involved in high-level discussions with internal and external stakeholders on implementation strategy for a large project.
 		`,
@@ -160,7 +160,7 @@ I built software for two research projects at Loughborough University, this invo
 		`,
 	},
 	{
-		title: 'Associate Lecturer',
+		title: 'Associate Lecturer (Part-time)',
 		place: 'Sheffield Hallam University',
 		placeUrl: 'https://www.shu.ac.uk/',
 		dates: 'September 2016 - October 2020',
