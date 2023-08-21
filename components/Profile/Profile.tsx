@@ -90,6 +90,12 @@ export const Profile: React.FC = () => {
 					</Link>
 					.
 				</p>
+				<p>
+					If you&apos;d like my CV in a more traditional format, there is also a{' '}
+					<Link href="/simon-rose-cv.pdf" className="inline underline">
+						PDF version.
+					</Link>
+				</p>
 				<p>I’d love to hear from you, please get in touch!</p>
 				<div className="flex gap-4 md:prose-lg">
 					{socialNetworks.map(social => (
