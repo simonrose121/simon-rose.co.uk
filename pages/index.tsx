@@ -40,15 +40,13 @@ const Home: NextPage = () => (
 							<li>Vue.js (and Nuxt.js)</li>
 							<li>TypeScript/JavaScript</li>
 							<li>CSS/SCSS</li>
-							<li>HTML</li>
 							<li>Node.js</li>
 							<li>Express.js</li>
-							<li>C#</li>
-							<li>Mocha/Chai/Jest/Cypress</li>
-							<li>MongoDB</li>
-							<li>Deployments using Vercel, Netlify, AWS, Google Firebase and Ubuntu servers</li>
-							<li>Pipeline configuration</li>
-							<li>Testing</li>
+							<li>Automated testing (Jest/Cypress)</li>
+							<li>MongoDB/SQL databases</li>
+							<li>GraphQL</li>
+							<li>Deployments using Vercel, Netlify, AWS, Google Firebase and Ubuntu servers.</li>
+							<li>Pipeline configuration using Gitlab CI/CD and Jenkins</li>
 						</ul>
 					</div>
 					<div className="flex flex-col md:basis-1/3">
@@ -56,9 +54,7 @@ const Home: NextPage = () => (
 						<ul className="list-disc ml-7">
 							<li>UI/UX design</li>
 							<li>Figma</li>
-							<li>InDesign</li>
-							<li>Photoshop</li>
-							<li>Jira/Linear</li>
+							<li>Jira/Linear/Trello</li>
 							<li>Agile</li>
 						</ul>
 					</div>
