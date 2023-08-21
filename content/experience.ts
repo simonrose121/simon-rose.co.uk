@@ -102,7 +102,7 @@ During my time as Team Lead, I:
 I initially joined 542 Digital part-time as a Senior Front-end Software Engineer.
 
 During this time I:
-- Developed 2 web applications in React.js, JavaScript and Highcharts. Both these tools are restricted access.
+- Developed 2 web applications in React, JavaScript and Highcharts. Both these tools are restricted access.
 - Maintained 4 legacy applications in JavaScript and jQuery.
 - Was involved in high-level discussions with internal and external stakeholders on implementation strategy for a large project.
 		`,
