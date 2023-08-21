@@ -54,7 +54,7 @@ My time as CTO has involved:
 		`,
 	},
 	{
-		title: 'End Point Assessor',
+		title: 'End Point Assessor (Part-time)',
 		place: 'Sheffield Hallam University',
 		placeUrl: 'https://www.shu.ac.uk/',
 		dates: 'August 2020 -',
@@ -160,7 +160,7 @@ I built software for two research projects at Loughborough University, this invo
 		`,
 	},
 	{
-		title: 'Associate Lecturer',
+		title: 'Associate Lecturer (Part-time)',
 		place: 'Sheffield Hallam University',
 		placeUrl: 'https://www.shu.ac.uk/',
 		dates: 'September 2016 - October 2020',
