@@ -75,7 +75,7 @@ As part of the role, I have:
 		placeUrl: 'https://542.digital/',
 		dates: 'October 2021 - March 2022',
 		description: `
-As 542 Digital grew and I transitioned to 4-days a week. I was given the opportunity to lead the front-end team.
+As 542 Digital grew and I transitioned to 4 days a week. I was given the opportunity to lead the front-end team.
 
 During my time as Team Lead, I:
 
