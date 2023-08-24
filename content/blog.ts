@@ -12,6 +12,7 @@ export const posts: Array<BlogPostMeta> = [
 		title: 'Reading 500 Books: Why, How and What I’ve Learnt',
 		date: new Date('2023-08-24'),
 		path: '500-books',
+		socialImage: 'https://simon-rose.co.uk/blog/500-books/fromreadingchair2019.jpeg',
 	},
 	{
 		id: '2022-reading',
