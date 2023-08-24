@@ -11,7 +11,7 @@ export type BlogPostMeta = {
 export const posts: Array<BlogPostMeta> = [
 	{
 		id: '500-books',
-		title: '500 Books: A Journey of Personal Development',
+		title: '500 Books: A Journey of Life, Learning and Growth',
 		description: 'I\'ve read 500 books since January 2016 and have written about why I read, how it\'s changed me and how I’ve managed to keep it up.',
 		date: new Date('2023-08-24'),
 		path: '500-books',
