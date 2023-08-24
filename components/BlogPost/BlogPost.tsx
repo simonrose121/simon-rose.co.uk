@@ -71,7 +71,7 @@ export const BlogPost: React.FC<{
 							<meta
 								name="publish_date"
 								property="og:publish_date"
-								content={dayjs(meta.date).toISOString()}
+								content={dayjs(meta.date).toISOString().slice(0, -1)}
 							/>
 						</>
 					) : (
