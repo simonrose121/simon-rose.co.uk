@@ -69,7 +69,7 @@ export const BlogPost: React.FC<{
 							<meta property="og:image:height" content="550" />
 							<meta name="author" content="Simon Rose" />
 							<meta
-								name="published_date"
+								name="publish_date"
 								property="og:publish_date"
 								content={dayjs(meta.date).toISOString()}
 							/>
