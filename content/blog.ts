@@ -10,7 +10,7 @@ export const posts: Array<BlogPostMeta> = [
 	{
 		id: '500-books',
 		title: '500 Books: Why, How and What I’ve Learnt',
-		date: new Date('2023-08-23'),
+		date: new Date('2023-08-24'),
 		path: '500-books',
 	},
 	{
