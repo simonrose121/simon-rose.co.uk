@@ -1,18 +1,20 @@
+/* eslint-disable max-len */
 export type BlogPostMeta = {
 	id: string;
 	title: string;
 	date: Date;
 	path: string;
 	socialImage?: string | undefined;
+	description?: string | undefined;
 }
 
 export const posts: Array<BlogPostMeta> = [
 	{
 		id: '500-books',
 		title: '500 Books: A Journey of Personal Development',
+		description: 'I\'ve read 500 books since January 2016 and have written about why I read, how it\'s changed me and how I’ve managed to keep it up.',
 		date: new Date('2023-08-24'),
 		path: '500-books',
-		// eslint-disable-next-line max-len
 		socialImage: 'https://www.simon-rose.co.uk/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Ffromreadingchair2019.305bdb00.jpeg&w=1200&q=75',
 	},
 	{
@@ -20,7 +22,6 @@ export const posts: Array<BlogPostMeta> = [
 		title: '2022 - A Year in Books',
 		date: new Date('2023-01-01'),
 		path: '2022-reading-roundup',
-		// eslint-disable-next-line max-len
 		socialImage: 'https://www.simon-rose.co.uk/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fyearinbooks.ab3b922e.png&w=1200&q=75',
 	},
 	{

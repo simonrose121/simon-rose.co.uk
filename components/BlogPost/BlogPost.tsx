@@ -61,6 +61,8 @@ export const BlogPost: React.FC<{
 					<link rel="icon" href="/favicon.png" />
 					{meta.socialImage ? (
 						<>
+							<meta property="og:title" content={meta.title} />
+							{meta.description ? <meta property="og:description" content={meta.description} /> : <></>}
 							<meta property="og:image" content={meta.socialImage} />
 							<meta property="og:image:type" content="image/png" />
 							<meta property="og:image:width" content="650" />
