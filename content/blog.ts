@@ -13,14 +13,15 @@ export const posts: Array<BlogPostMeta> = [
 		date: new Date('2023-08-24'),
 		path: '500-books',
 		// eslint-disable-next-line max-len
-		socialImage: 'https://www.simon-rose.co.uk/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Ffromreadingchair2019.305bdb00.jpeg&w=750&q=75',
+		socialImage: 'https://www.simon-rose.co.uk/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Ffromreadingchair2019.305bdb00.jpeg&w=1200&q=75',
 	},
 	{
 		id: '2022-reading',
 		title: '2022 - A Year in Books',
 		date: new Date('2023-01-01'),
 		path: '2022-reading-roundup',
-		socialImage: 'https://simon-rose.co.uk/blog/books2022/yearinbooks.png',
+		// eslint-disable-next-line max-len
+		socialImage: 'https://www.simon-rose.co.uk/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fyearinbooks.ab3b922e.png&w=1200&q=75',
 	},
 	{
 		id: 'mood-meter',
