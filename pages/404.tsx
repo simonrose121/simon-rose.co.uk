@@ -3,7 +3,7 @@ import Head from 'next/head';
 import Link from 'next/link';
 import * as React from 'react';
 
-import { Layout } from 'Components';
+import { Analytics, Layout } from 'Components';
 
 const CustomNotFound: NextPage = (): JSX.Element => (
 	<Layout>
@@ -11,7 +11,7 @@ const CustomNotFound: NextPage = (): JSX.Element => (
 			<title>Page Not Found | Simon Rose</title>
 			<link rel="icon" href="/favicon.png" />
 		</Head>
-
+		<Analytics />
 		<main className="container mx-auto mt-12 flex flex-col items-center">
 			<h2>
 				Oops, you&apos;ve taken a wrong turn. Back to{' '}

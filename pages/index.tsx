@@ -3,7 +3,7 @@ import type { NextPage } from 'next';
 import Head from 'next/head';
 import Link from 'next/link';
 
-import { Layout, Position, Profile } from 'Components';
+import { Analytics, Layout, Position, Profile } from 'Components';
 import { experiences, publications, qualifications } from 'Content';
 
 const Home: NextPage = () => (
@@ -16,7 +16,7 @@ const Home: NextPage = () => (
 			/>
 			<link rel="icon" href="/favicon.png" />
 		</Head>
-
+		<Analytics />
 		<main className="container mx-auto mt-12 flex flex-col gap-14">
 			<Profile />
 			<div className="flex flex-col gap-4 p-5 md:p-0">

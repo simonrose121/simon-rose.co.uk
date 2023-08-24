@@ -3,7 +3,7 @@ import type { NextPage } from 'next';
 import Head from 'next/head';
 import Link from 'next/link';
 
-import { Layout } from 'Components';
+import { Analytics, Layout } from 'Components';
 import { posts } from 'Content';
 
 const Blog: NextPage = () => (
@@ -17,7 +17,7 @@ const Blog: NextPage = () => (
 			/>
 			<link rel="icon" href="/favicon.png" />
 		</Head>
-
+		<Analytics />
 		<main className="container mx-auto p-5 md:p-0">
 			<h1 className="text-3xl mb-6 font-semibold mt-12">Posts</h1>
 			<div className="flex flex-col gap-8">
