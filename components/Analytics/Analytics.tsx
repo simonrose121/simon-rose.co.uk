@@ -2,7 +2,7 @@ import Script from 'next/script';
 import * as React from 'react';
 
 export const Analytics: React.FC = () => {
-	const gtagId = 'G-169KYJLKHH';
+	const gtagId = 'G-M0PK8P3D8J';
 
 	return (
 		<>
