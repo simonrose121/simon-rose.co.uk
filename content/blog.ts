@@ -8,6 +8,12 @@ export type BlogPostMeta = {
 
 export const posts: Array<BlogPostMeta> = [
 	{
+		id: '500-books',
+		title: '500 Books: Why, How and What I’ve Learnt',
+		date: new Date('2023-08-24'),
+		path: '500-books',
+	},
+	{
 		id: '2022-reading',
 		title: '2022 - A Year in Books',
 		date: new Date('2023-01-01'),
