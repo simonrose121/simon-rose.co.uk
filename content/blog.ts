@@ -10,11 +10,11 @@ export type BlogPostMeta = {
 
 export const posts: Array<BlogPostMeta> = [
 	{
-		id: '2023-travel-adventure',
-		title: '4 Months Away: The Highlights, Low Points and Reflections of a Backpacking Adventure',
+		id: '4-months-travelling',
+		title: '4 Months Travelling: Highlights, Low Points and Reflections of a Backpacking Adventure',
 		description: '',
-		date: new Date('2023-10-13'),
-		path: '2023-travel-adventure',
+		date: new Date('2023-10-14'),
+		path: '4-months-travelling',
 	},
 	{
 		id: '500-books',
