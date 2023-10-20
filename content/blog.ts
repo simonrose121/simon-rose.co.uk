@@ -12,7 +12,7 @@ export const posts: Array<BlogPostMeta> = [
 	{
 		id: '4-months-travelling',
 		title: '4 Months Travelling: Highlights, Low Points and Reflections of a Backpacking Adventure',
-		description: '',
+		description: 'Highlights, low points and reflections of a 4 month backpacking adventure.',
 		date: new Date('2023-10-21'),
 		path: '4-months-travelling',
 	},
