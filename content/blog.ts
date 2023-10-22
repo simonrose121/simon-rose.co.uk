@@ -15,6 +15,7 @@ export const posts: Array<BlogPostMeta> = [
 		description: 'Highlights, low points and reflections of a 4-month backpacking adventure.',
 		date: new Date('2023-10-22'),
 		path: '4-months-travelling',
+		socialImage: 'https://www.simon-rose.co.uk/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fgokarts.94e31550.jpeg&w=1200&q=75',
 	},
 	{
 		id: '500-books',
