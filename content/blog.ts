@@ -10,6 +10,13 @@ export type BlogPostMeta = {
 
 export const posts: Array<BlogPostMeta> = [
 	{
+		id: '4-months-travelling',
+		title: '4 Months Travelling: Highlights, Low Points and Reflections of a Backpacking Adventure',
+		description: 'Highlights, low points and reflections of a 4 month backpacking adventure.',
+		date: new Date('2023-10-21'),
+		path: '4-months-travelling',
+	},
+	{
 		id: '500-books',
 		title: '500 Books: A Journey of Life, Learning and Growth',
 		description: 'I\'ve read 500 books since January 2016 and have written about why I read, how it\'s changed me and how I’ve managed to keep it up.',
