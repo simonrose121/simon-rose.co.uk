@@ -9,7 +9,25 @@ export type PositionType = {
 
 export const experiences: Array<PositionType> = [
 	{
-		title: 'Senior Technical Manager - Front-end (Contract)',
+		title: 'Lead Front-end Engineer',
+		place: 'Thrive',
+		placeUrl: 'https://www.thrivelearning.com/',
+		dates: 'October 2023 -',
+		description: `
+After taking a 6 month career break, I took a permanent role at Thrive to build my leadership and management experience in an industry that I'm passionate about.
+
+This has involved:
+
+- Guiding the front-end implementation of Thrive's learning platform using TypeScript, React, Redux and GraphQL.
+- Line managing 8 front-end software engineers (4 direct and 4 indirect) of differing levels of seniority and experience, guiding personal development and setting goals through 1:1s.
+- Implementing front-end best practices and ensuring consistency across workstreams.
+- Working on platform health and technical debt initiatives, collaborating with back-end, QA and cloud engineers.
+- Building out Thrive's component library using Storybook and MUI, working closely with the UI/UX team.
+- Leading the implementation of Notion across the business.
+		`,
+	},
+	{
+		title: 'Senior Technical Manager - Front-end',
 		place: '542 Digital',
 		placeUrl: 'https://542.digital/',
 		dates: 'April 2022 - March 2023',
@@ -29,7 +47,7 @@ As 542 Digital took on more work and expanded into other operating areas, my res
 		`,
 	},
 	{
-		title: 'Chief Technology Officer (Contract)',
+		title: 'Chief Technology Officer',
 		place: 'MTa Learning',
 		placeUrl: 'https://www.experientiallearning.org/',
 		dates: 'January 2022 - March 2023',
@@ -53,7 +71,7 @@ My time as CTO has involved:
 		`,
 	},
 	{
-		title: 'End Point Assessor (Part-time)',
+		title: 'Lead End Point Assessor (Part-time)',
 		place: 'Sheffield Hallam University',
 		placeUrl: 'https://www.shu.ac.uk/',
 		dates: 'August 2020 -',
@@ -70,7 +88,7 @@ As part of the role, I have:
 		`,
 	},
 	{
-		title: 'Technical Lead - Front-end (Contract)',
+		title: 'Technical Lead - Front-end',
 		place: '542 Digital',
 		placeUrl: 'https://542.digital/',
 		dates: 'October 2021 - March 2022',
@@ -94,7 +112,7 @@ During my time as Team Lead, I:
 		`,
 	},
 	{
-		title: 'Senior Software Engineer - Front-end (Contract)',
+		title: 'Senior Software Engineer - Front-end',
 		place: '542 Digital',
 		placeUrl: 'https://542.digital/',
 		dates: 'July 2021 - September 2021',
