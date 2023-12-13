@@ -9,7 +9,7 @@ export type PositionType = {
 
 export const experiences: Array<PositionType> = [
 	{
-		title: 'Lead Front-end Engineer',
+		title: 'Senior Lead Engineer (Front-end)',
 		place: 'Thrive',
 		placeUrl: 'https://www.thrivelearning.com/',
 		dates: 'October 2023 -',
