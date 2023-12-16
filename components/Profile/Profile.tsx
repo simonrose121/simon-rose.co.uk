@@ -64,8 +64,8 @@ export const Profile: React.FC = () => {
 					<Link href="https://www.rose.tech" className="inline underline">
 						RoseTech
 					</Link>
-					, and I&apos;m currently working as a Lead Front-end Engineer, having previously contracted as a
-					Senior Technical Manager and Chief Technology Officer. My technical skills focus on front-end
+					, and I&apos;m currently working as a Senior Lead Software Engineer, having previously contracted as
+					a Senior Technical Manager and Chief Technology Officer. My technical skills focus on front-end
 					JavaScript and TypeScript development, including React, Angular and Vue. I am also an assessor on
 					the Digital and Technology Solutions Specialist Integrated Degree Apprenticeship, helping to shape
 					the next generation of tech leaders.
