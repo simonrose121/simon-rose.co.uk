@@ -14,7 +14,7 @@ export const experiences: Array<PositionType> = [
 		placeUrl: 'https://www.thrivelearning.com/',
 		dates: 'October 2023 -',
 		description: `
-After taking a 6 month career break, I took a permanent role at Thrive to build my leadership and management experience in an industry that I'm passionate about.
+After taking a short career break to [go travelling](/blog/4-months-travelling), I took a permanent role at Thrive to build my leadership and management experience in an industry that I'm passionate about.
 
 This has involved:
 
