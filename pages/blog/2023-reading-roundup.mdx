@@ -1,5 +1,6 @@
 import { posts } from 'Content';
 import { ImageLink, BlogPost } from 'Components';
+import Image from 'next/image';
 
 import anImmenseWorld from '../../public/blog/books2023/animmenseworld.jpeg';
 import chipWar from '../../public/blog/books2023/chipwar.jpeg';
@@ -12,6 +13,11 @@ import remarkablyBrightCreatures from '../../public/blog/books2023/remarkablybri
 import demonCopperhead from '../../public/blog/books2023/demoncopperhead.jpeg';
 import theBorder from '../../public/blog/books2023/theborder.jpeg';
 import tomorrow from '../../public/blog/books2023/tomorrow.jpeg';
+
+import goodreadsBooks from '../../public/blog/books2022/goodreads-books-2022.png';
+import goodreadsPages from '../../public/blog/books2022/goodreads-pages-2022.png';
+import goodreadsMonthlyBooks from '../../public/blog/books2022/goodreads-monthlybooks-2022.png';
+import goodreadsMonthlyPages from '../../public/blog/books2022/goodreads-monthlypages-2022.png';
 
 export const post = posts.find(post => post.id === '2023-reading');
 
@@ -254,5 +260,18 @@ Links to the previous yearly round-ups:
 ### Stats
 
 Here are the stats from eight years on Goodreads:
+
+[//]: # (TODO: Update)
+<Image alt="Books year on year" src={goodreadsBooks} width={700} height={200} />
+_Book counts year on year_
+
+<Image alt="Pages year on year" src={goodreadsPages} width={700} height={200} />
+_Page counts year on year_
+
+<Image alt="Books month on month" src={goodreadsMonthlyBooks} width={700} height={200} />
+_Book counts month on month_
+
+<Image alt="ages month on month" src={goodreadsMonthlyPages} width={700} height={200} />
+_Page counts month on month_
 
 export default ({ children }) => <BlogPost meta={post}>{children}</BlogPost>;
