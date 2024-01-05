@@ -12,7 +12,7 @@ export const posts: Array<BlogPostMeta> = [
 	{
 		id: '2023-reading',
 		title: '2023 - A Year in Books',
-		date: new Date('2024-01-01'),
+		date: new Date('2024-01-08'),
 		path: '2023-reading-roundup',
 	},
 	{
@@ -34,7 +34,7 @@ export const posts: Array<BlogPostMeta> = [
 	{
 		id: '2022-reading',
 		title: '2022 - A Year in Books',
-		date: new Date('2023-01-01'),
+		date: new Date('2023-01-03'),
 		path: '2022-reading-roundup',
 		socialImage: 'https://www.simon-rose.co.uk/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fyearinbooks.ab3b922e.png&w=1200&q=75',
 	},
@@ -53,7 +53,7 @@ export const posts: Array<BlogPostMeta> = [
 	{
 		id: '2021-reading',
 		title: '2021 - A Year in Books',
-		date: new Date('2022-01-01'),
+		date: new Date('2022-01-02'),
 		path: '2021-reading-roundup',
 	},
 	{
