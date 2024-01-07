@@ -83,7 +83,7 @@ As part of the role, I have:
 - Developed an assessment process, including assessment schemes and question frameworks, based on the Government provided standard.
 - Conducted the assessments for 40 apprentices over 3 years, each involving a 2 hour discussion and grading a 10,000 word project report.
 - Onboarded two additional assessors, one in Software Engineering and another in Data Analytics.
-- Improved the process and tracking of the assessments year on year, working with the teaching team at Sheffield Hallam.
+- Improved the process and tracking of the assessments year-on-year, working with the teaching team at Sheffield Hallam.
 - Automated parts of the process such as document generation.
 		`,
 	},
