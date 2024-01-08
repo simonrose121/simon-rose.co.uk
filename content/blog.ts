@@ -12,7 +12,7 @@ export const posts: Array<BlogPostMeta> = [
 	{
 		id: '2023-reading',
 		title: '2023 - A Year in Books',
-		description: 'A summary of my favourite books from 2023, along with some stats from 8 years of book-a-week my reading challenge.',
+		description: 'I read 61 books in 2023. I\'ve written about my favourites, along with some stats from 8 years of my 1 book per week reading challenge.',
 		date: new Date('2024-01-08'),
 		path: '2023-reading-roundup',
 		socialImage: 'https://www.simon-rose.co.uk/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fyearinbooks.2e96c3dd.png&w=1080&q=75'
