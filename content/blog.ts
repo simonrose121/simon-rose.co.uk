@@ -12,10 +12,10 @@ export const posts: Array<BlogPostMeta> = [
 	{
 		id: '2023-reading',
 		title: '2023 - A Year in Books',
-		description: 'I read 61 books in 2023. I\'ve written about my favourites, along with some stats from 8 years of my 1 book per week reading challenge.',
+		description: 'I read 61 books in 2023. I\'ve written about my favourites, along with some stats from 8 years of beating my one book per week reading target.',
 		date: new Date('2024-01-08'),
 		path: '2023-reading-roundup',
-		socialImage: 'https://www.simon-rose.co.uk/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fyearinbooks.2e96c3dd.png&w=1080&q=75'
+		socialImage: 'https://www.simon-rose.co.uk/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fyearinbooks.2e96c3dd.png&w=1080&q=75',
 	},
 	{
 		id: '4-months-travelling',
