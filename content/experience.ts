@@ -9,7 +9,7 @@ export type PositionType = {
 
 export const experiences: Array<PositionType> = [
 	{
-		title: 'Senior Lead Software Engineer - Front-end',
+		title: 'Lead Software Engineer - Front-end',
 		place: 'Thrive',
 		placeUrl: 'https://www.thrivelearning.com/',
 		dates: 'October 2023 -',
@@ -19,10 +19,12 @@ After taking a short career break to [go travelling](/blog/4-months-travelling),
 This has involved:
 
 - Guiding the front-end implementation of Thrive's learning platform using TypeScript, React, Redux and GraphQL.
-- Line managing 8 front-end software engineers (4 direct and 4 indirect) of differing levels of seniority and experience, guiding personal development and setting goals through 1:1s.
-- Implementing front-end best practices and ensuring consistency across workstreams.
+- Line managing a team of 8 front-end software engineers (4 direct and 4 indirect) including leads and seniors, guiding personal development and setting goals through 1:1s.
+- Building a productive culture of openness and collaboration on the front-end team.
+- Implementing front-end best practices and a consistent solution architecture.
 - Working on platform health and technical debt initiatives, collaborating with back-end, QA and cloud engineers.
 - Building out Thrive's component library using Storybook and MUI, working closely with the UI/UX team.
+- Interviewing and hiring permanent and contract software engineers.
 - Leading the implementation of Notion across the business.
 		`,
 	},
