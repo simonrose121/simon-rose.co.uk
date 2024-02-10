@@ -18,14 +18,18 @@ After taking a short career break to [go travelling](/blog/4-months-travelling),
 
 This has involved:
 
-- Guiding the front-end implementation of Thrive's learning platform using TypeScript, React, Redux and GraphQL.
+- Guiding the front-end implementation of Thrive's learning platform using React, TypeScript, Redux and GraphQL.
 - Line managing a team of 8 front-end software engineers (4 direct and 4 indirect) including leads and seniors, guiding personal development and setting goals through 1:1s.
-- Building a productive culture of openness and collaboration on the front-end team.
-- Implementing front-end best practices and a consistent solution architecture.
-- Working on platform health and technical debt initiatives, collaborating with back-end, QA and cloud engineers.
-- Building out Thrive's component library using Storybook and MUI, working closely with the UI/UX team.
-- Interviewing and hiring permanent and contract software engineers.
-- Leading the implementation of Notion across the business.
+- Building a productive culture of openness and collaboration on the frontend team.
+- Implementing best practices and consistent solution architecture.
+- Working on platform health and technical debt initiatives, collaborating with backend, QA and cloud engineers.
+- Developing Thrive's front-end deployment strategy using AWS and Bitbucket pipelines.
+- Building Thrive's component library using Storybook and MUI, working closely with the UX team.
+- Expanding the team through interviewing and hiring permanent and contract software engineers.
+- Setting up and leading Thrive's working group for conference attendance.
+- Organising tech meetups.
+- Consulting on the implementation of Notion across the business.
+- Contributing to Thrive's experience forum, addressing employee concerns and issues through a monthly survey.
 		`,
 	},
 	{
