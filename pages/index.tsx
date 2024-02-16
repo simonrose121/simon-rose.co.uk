@@ -35,14 +35,14 @@ const Home: NextPage = () => (
 					<div className="flex flex-col md:basis-1/3">
 						<p className="font-bold">Technical</p>
 						<ul className="list-disc ml-7">
-							<li>React (and Next.js)</li>
-							<li>AngularJS/RXJS</li>
-							<li>Vue.js (and Nuxt.js)</li>
+							<li>React, Next.js and Redux</li>
+							<li>AngularJS and RxJS</li>
+							<li>Vue.js and Nuxt.js</li>
 							<li>TypeScript/JavaScript</li>
-							<li>CSS/SCSS</li>
+							<li>HTML/CSS/SCSS</li>
 							<li>Node.js</li>
 							<li>Express.js</li>
-							<li>Automated testing (Jest/Cypress)</li>
+							<li>Automated testing (Jest/Cypress/Playwright)</li>
 							<li>MongoDB/SQL databases</li>
 							<li>GraphQL</li>
 							<li>Deployments using Vercel, Netlify, AWS, Google Firebase and Ubuntu servers.</li>
@@ -61,6 +61,7 @@ const Home: NextPage = () => (
 					<div className="flex flex-col md:basis-1/3">
 						<p className="font-bold">Soft Skills</p>
 						<ul className="list-disc ml-7">
+							<li>Problem-solving</li>
 							<li>Organisation</li>
 							<li>Planning</li>
 							<li>Adaptability</li>

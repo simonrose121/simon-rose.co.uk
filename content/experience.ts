@@ -9,21 +9,30 @@ export type PositionType = {
 
 export const experiences: Array<PositionType> = [
 	{
-		title: 'Lead Software Engineer - Front-end',
+		title: 'Director',
+		place: 'RoseTech',
+		placeUrl: 'https://www.rose.tech/',
+		dates: 'May 2020 - ',
+		description: `
+- Providing software development, technical leadership and software engineering consultancy services to a variety of clients from digital agencies to universities.
+		`,
+	},
+	{
+		title: 'Lead Software Engineer',
 		place: 'Thrive',
 		placeUrl: 'https://www.thrivelearning.com/',
 		dates: 'October 2023 -',
 		description: `
-After taking a short career break to [go travelling](/blog/4-months-travelling), I took a permanent role at Thrive to build my leadership and management experience.
+After taking a short career break to [go travelling](/blog/4-months-travelling), I took a role at Thrive to further build my leadership and management experience.
 
 This has involved:
 
-- Guiding the front-end implementation of Thrive's learning platform using React, TypeScript, Redux and GraphQL.
-- Line managing a team of 8 front-end software engineers (4 direct and 4 indirect) including leads and seniors, guiding personal development and setting goals through 1:1s.
+- Guiding the frontend implementation of Thrive's learning platform using React, TypeScript, Redux and GraphQL. Ensuring code is fast, testable, scalable and high quality.
+- Line managing a team of 8 frontend software engineers (4 direct and 4 indirect) including leads and seniors, guiding personal development and setting goals through 1:1s.
 - Building a productive culture of openness and collaboration on the frontend team.
-- Implementing best practices and consistent solution architecture.
-- Working on platform health and technical debt initiatives, collaborating with backend, QA and cloud engineers.
-- Developing Thrive's front-end deployment strategy using AWS and Bitbucket pipelines.
+- Making enterprise-level frontend architectural decisions and implementing best practices.
+- Working on platform health and technical debt initiatives, collaborating with backend, QA and cloud engineers on Thrive’s event-driven microservice architecture.
+- Developing Thrive's frontend deployment strategy using AWS and Bitbucket pipelines.
 - Building Thrive's component library using Storybook and MUI, working closely with the UX team.
 - Expanding the team through interviewing and hiring permanent and contract software engineers.
 - Setting up and leading Thrive's working group for conference attendance.
@@ -33,20 +42,20 @@ This has involved:
 		`,
 	},
 	{
-		title: 'Senior Technical Manager - Front-end',
+		title: 'Principal Software Engineer',
 		place: '542 Digital',
 		placeUrl: 'https://542.digital/',
 		dates: 'April 2022 - March 2023',
 		description: `
-As 542 Digital took on more work and expanded into other operating areas, my responsibilities broadened and my role transitioned to a Senior Technical Manager. During this time I have:
-- Overseen the development of 19 fintech web applications, both data-driven and creative, using TypeScript, React, Redux and Next.js. Most of these applications are restricted access, but publicly available examples include [Power With Gold](https://powerwithgold.mygoldguide.in/), [invest.gold](https://invest.gold/) and [Gold Return Attribution Model](https://www.gold.org/goldhub/tools/gold-return-attribution-model).
+As 542 Digital took on more work and expanded into other operating areas, my responsibilities broadened and I was promoted to a Principal role. During this time I:
+- Oversaw the development of 19 fintech web applications, both data-driven and creative, using TypeScript, React, Redux and Next.js. Most of these applications are restricted access, but publicly available examples include [Power With Gold](https://powerwithgold.mygoldguide.in/), [invest.gold](https://invest.gold/) and [Gold Return Attribution Model](https://www.gold.org/goldhub/tools/gold-return-attribution-model).
 - Led a team of 5 engineers, supporting their personal and professional development through 1:1s and continuous feedback. 
-- Implemented Agile processes to both the front-end and back-end teams at 542, including regular sprint planning, retrospectives and backlog planning.
+- Implemented Agile processes to both the frontend and backend teams at 542, including regular sprint planning, retrospectives and backlog planning.
 - Seconded to another team within the business to implement software development processes such as code review, coding standards, commit message linting and regular process meetings.
 - Worked across technical teams to produce cross-platform solutions.
 - Conducted feasibility studies, business case development and project budgeting.
 - Documented and reported projects across the business. 
-- Was instrumental in enabling the business to expand from data-driven applications to creative-driven web applications, which the front-end team now build in Next.js with TypeScript.
+- Was instrumental in enabling the business to expand from data-driven applications to creative-driven web applications, which the frontend team now build in Next.js with TypeScript.
 - Created and delivered presentations to senior stakeholders on new projects and analysis of existing parts of the business.
 - Conducted interviews for other roles in the business, including Project Managers and Designers.
 - Consulted the business on growth from a small agency (10 employees) to an SME (40 employees) and acted as a de-facto Director in terms of financial and business discussions.
@@ -60,7 +69,7 @@ As 542 Digital took on more work and expanded into other operating areas, my res
 		description: `
 I was hired to oversee the development and implementation of the MTa Immersion online platform. 
 
-My time as CTO has involved:
+My time as CTO involved:
 
 - Architecting the technical solution (full stack TypeScript using Next.js, Nest.js and MongoDB) to replace the legacy platform (Unity and Photon) based on requirements from the Managing Director.
 - Overseeing the delivery of 18 web applications and APIs for the platform activities using the above technology stack for [MTa Immersion](https://www.experientiallearning.org/online/).
@@ -94,36 +103,36 @@ As part of the role, I have:
 		`,
 	},
 	{
-		title: 'Technical Lead - Front-end',
+		title: 'Lead Software Engineer',
 		place: '542 Digital',
 		placeUrl: 'https://542.digital/',
 		dates: 'October 2021 - March 2022',
 		description: `
-As 542 Digital grew and I transitioned to 4 days a week. I was given the opportunity to lead the front-end team.
+As 542 Digital grew and I transitioned to 4 days a week. I was given the opportunity to lead the frontend team.
 
 During my time as Team Lead, I:
 
 - Hired software engineers at different levels to build a productive and cohesive team.
 - Managed a team of 5 engineers, and managed projects before 542 hired a dedicated project manager for the team.
-- Overhauled the front-end tech stack from JavaScript/jQuery projects sitting within a larger Laravel application, to standalone TypeScript/React projects that can handle additional complexity.
-- Overseen the development of 8 fintech web applications, both data-driven and creative, using TypeScript, React, Redux and Next.js. Publicly available examples include [542 Digital's Website](https://542.digital/) and [Qaurum](https://qaurum.gold.org/).
+- Overhauled the frontend tech stack from JavaScript/jQuery projects sitting within a larger Laravel application, to standalone TypeScript/React projects that can handle additional complexity.
+- Oversaw the development of 8 fintech web applications, both data-driven and creative, using TypeScript, React, Redux and Next.js. Publicly available examples include [542 Digital's Website](https://542.digital/) and [Qaurum](https://qaurum.gold.org/).
 - Implemented a git submodule library for shared functionality across 542 React applications, including components with Storybook and utility functions.
 - Transitioned the business to use Notion for documentation and implemented standardised documentation practices.
-- Implemented a testing strategy for front-end projects, including using automated tests in Cypress.
+- Implemented a testing strategy for frontend projects, including using automated tests in Cypress.
 - Implemented a code review process and coding standards.
 - Configured application deployments to AWS using Docker/EKS and Amplify, Vercel and Cloudflare Pages.
-- Configured reusable CI/CD pipelines in Gitlab for the front-end projects, including versioning, change logs and linting.
-- Designed API schemas for integration of front-end applications with the other tech stacks used within the business, mainly Drupal and Laravel.
-- Overhauled 542’s project design phases to use Figma and created design systems and UI/UX designs for front-end projects. I then handed this off when they began hiring a design team.
+- Configured reusable CI/CD pipelines in Gitlab for the frontend projects, including versioning, change logs and linting.
+- Designed API schemas for integration of frontend applications with the other tech stacks used within the business, mainly Drupal and Laravel.
+- Overhauled 542’s project design phases to use Figma and created design systems and UI/UX designs for frontend projects. I then handed this off when they began hiring a design team.
 		`,
 	},
 	{
-		title: 'Senior Software Engineer - Front-end',
+		title: 'Senior Senior Software Engineer - frontend',
 		place: '542 Digital',
 		placeUrl: 'https://542.digital/',
 		dates: 'July 2021 - September 2021',
 		description: `
-I initially joined 542 Digital part-time as a Senior Front-end Software Engineer.
+I initially joined 542 Digital part-time as a Senior Software Engineer.
 
 During this time I:
 - Developed 2 web applications in React, JavaScript and Highcharts. Both these tools are restricted access.
@@ -144,14 +153,14 @@ I maintained and built websites for The Black Eye Project. This involved:
 		`,
 	},
 	{
-		title: 'Software Engineer (Freelance)',
+		title: 'Senior Software Engineer (Freelance)',
 		place: 'Only The Brave',
 		placeUrl: 'https://www.onlythebrave.co.uk/',
 		dates: 'April 2021 - August 2021',
 		description: `
 I built banners for ad campaigns and maintained websites for Only The Brave. This involved:
 
-- Working on legacy Vue web applications. Examples include [Giraffe](https://www.giraffe.net/).
+- Working on legacy Vue web applications, including [Giraffe](https://www.giraffe.net/).
 - Building animated HTML banners in Figma for large-scale advertising campaigns for Lloyds Pharmacy.
 		`,
 	},
@@ -161,7 +170,7 @@ I built banners for ad campaigns and maintained websites for Only The Brave. Thi
 		placeUrl: 'https://www.rosebrothersdigital.co.uk/',
 		dates: 'August 2020 - March 2022',
 		description: `
-My brother and I started a digital marketing business in lockdown. This involved:
+My brother and I started and ran a digital marketing business in lockdown. This involved:
 
 - Designing and developing bespoke websites.
 - SEO optimisation over the lifetime of the sites.
@@ -169,7 +178,7 @@ My brother and I started a digital marketing business in lockdown. This involved
 		`,
 	},
 	{
-		title: 'Research Software Engineer (Freelance)',
+		title: 'Senior Software Engineer (Freelance)',
 		place: 'Loughborough University',
 		placeUrl: 'https://www.lboro.ac.uk/',
 		dates: 'May 2020 - March 2023',
@@ -212,7 +221,7 @@ This involved:
 		`,
 	},
 	{
-		title: 'Full-stack Software Engineer',
+		title: 'Software Engineer',
 		place: '3Squared',
 		placeUrl: 'https://3squared.com/',
 		dates: 'September 2013 - May 2016',

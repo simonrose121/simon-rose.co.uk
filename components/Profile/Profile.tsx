@@ -55,7 +55,7 @@ export const Profile: React.FC = () => {
 				<p>Hi, I’m Dr Simon Rose.</p>
 				<p>Welcome to my online CV and blog.</p>
 				<p>
-					I am a driven and adaptable software engineer who is experienced in building and leading
+					I am a software engineer and tech leader with 10+ years of experience building and leading
 					high-performing, innovative and results-driven software development teams. I have led the design,
 					development and delivery of complex software projects across finance, education and academia.
 				</p>
@@ -68,15 +68,19 @@ export const Profile: React.FC = () => {
 					<Link href="https://www.thrivelearning.com/" className="inline underline">
 						Thrive
 					</Link>
-					, having previously contracted as a Senior Technical Manager and Chief Technology Officer. My
+					, having previously contracted as a Principal Software Engineer and Chief Technology Officer. My
 					technical skills focus on front-end JavaScript and TypeScript development, including React, Angular
 					and Vue. I am also an assessor on the Digital and Technology Solutions Specialist Integrated Degree
 					Apprenticeship, helping to shape the next generation of tech leaders.
 				</p>
 				<p>
 					I pride myself on my leadership and communication skills. I am exceptional at organisation, process
-					implementation and attention to detail. I have a PhD in Computer Science and Education, and my
-					research focused on creating games to teach children programming skills.
+					implementation and attention to detail. I hold a PhD in Computer Science and Education, and my
+					research focused on creating games to teach children programming skills. The game I created,{' '}
+					<Link href="https://www.pirateplunder.app" className="inline underline">
+						Pirate Plunder
+					</Link>{' '}
+					is available to play for free online.
 				</p>
 				<p>
 					In my spare time, I love to{' '}
