@@ -71,7 +71,7 @@ I was hired to oversee the development and implementation of the MTa Immersion o
 
 My time as CTO involved:
 
-- Architecting the technical solution (full stack TypeScript using Next.js, Nest.js and MongoDB) to replace the legacy platform (Unity and Photon) based on requirements from the Managing Director.
+- Architecting the technical solution (full-stack TypeScript using Next.js, Nest.js and MongoDB) to replace the legacy platform (Unity and Photon) based on requirements from the Managing Director.
 - Overseeing the delivery of 18 web applications and APIs for the platform activities using the above technology stack for [MTa Immersion](https://www.experientiallearning.org/online/).
 - Hiring software engineers and designers at multiple levels to implement the platform.
 - Handling the product strategy of MTa Immersion, including road-mapping, and managing task priorities and dependencies.
