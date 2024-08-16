@@ -60,7 +60,7 @@ export const Profile: React.FC = () => {
 					development and delivery of complex software projects across finance, education and academia.
 				</p>
 				<p>
-					I&apos;m currently working as Principal Engineer at{' '}
+					I&apos;m currently working as a Principal Engineer at{' '}
 					<Link href="https://www.thenational.academy/" className="inline underline">
 						Oak National Academy
 					</Link>
