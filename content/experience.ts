@@ -12,14 +12,14 @@ export const experiences: Array<PositionType> = [
 		title: 'Principal Engineer',
 		place: 'Oak National Academy',
 		placeUrl: 'https://www.thenational.academy/',
-		dates: 'April 2024 - ',
+		dates: 'April 2024 - Present',
 		description: '',
 	},
 	{
 		title: 'Lead End Point Assessor (Part-time)',
 		place: 'Sheffield Hallam University',
 		placeUrl: 'https://www.shu.ac.uk/',
-		dates: 'August 2020 -',
+		dates: 'August 2020 - Present',
 		description: `
 I was brought in as the first End Point Assessor on the Digital and Technology Solutions Specialist Integrated Degree Apprenticeship run by Sheffield Hallam University. Assessors must be actively working in the software industry and have a minimum of a Master’s degree in the field. The assessment is used by software companies of varying sizes to develop their employees and gear them towards management.
 
@@ -38,7 +38,7 @@ As part of the role, I have:
 		placeUrl: 'https://www.rose.tech/',
 		dates: 'May 2020 - August 2024',
 		description: `
-- Providing software development, technical leadership and software engineering consultancy services to a variety of clients from digital agencies to universities.
+I started my own software consultancy company in 2020. This involved providing software development, technical leadership and software engineering consultancy services to a variety of clients from digital agencies to universities. My work at 542 Digital, MTa Learning and Loughborough University was all undertaken through RoseTech.
 		`,
 	},
 	{
@@ -49,20 +49,20 @@ As part of the role, I have:
 		description: `
 After taking a short career break to [go travelling](/blog/4-months-travelling), I took a role at Thrive to further build my leadership and management experience.
 
-This has involved:
+This involved:
 
-- Guiding the frontend implementation of Thrive's learning platform using React, TypeScript, Redux and GraphQL. Ensuring code is fast, testable, scalable and high quality.
-- Line managing a team of 8 frontend software engineers (4 direct and 4 indirect) including leads and seniors, guiding personal development and setting goals through 1:1s.
-- Building a productive culture of openness and collaboration on the frontend team.
-- Making enterprise-level frontend architectural decisions and implementing best practices.
-- Working on platform health and technical debt initiatives, collaborating with backend, QA and cloud engineers on Thrive’s event-driven microservice architecture.
-- Developing Thrive's frontend deployment strategy using AWS and Bitbucket pipelines.
-- Building Thrive's component library using Storybook and MUI, working closely with the UX team.
-- Expanding the team through interviewing and hiring permanent and contract software engineers.
-- Setting up and leading Thrive's working group for conference attendance.
-- Organising tech meetups.
-- Consulting on the implementation of Notion across the business.
-- Contributing to Thrive's experience forum, addressing employee concerns and issues through a monthly survey.
+- Guided the front-end implementation of Thrive's learning platform using React, TypeScript, Redux and GraphQL. Ensuring code is fast, testable, scalable and high quality.
+- Line managed a team of 8 front-end software engineers (4 direct and 4 indirect) including leads and seniors, guiding personal development and setting goals through 1:1s.
+- Built a productive culture of openness and collaboration on the frontend team.
+- Implemented best practices and making frontend architectural decisions.
+- Worked on platform health and technical debt initiatives, collaborating with back-end, QA and cloud engineers on Thrive’s event-driven microservice architecture.
+- Developed Thrive's front-end deployment strategy using AWS and Bitbucket pipelines.
+- Built out Thrive's component library using Storybook and MUI, working closely with the UX team.
+- Expanded the team through interviewing and hiring permanent and contract software engineers.
+- Set up and leading Thrive's working group for conference attendance.
+- Organised and running tech meetups and internal conferences.
+- Consulted on the implementation of Notion across the business.
+- Contributed to Thrive's experience forum, addressing employee concerns and issues through a monthly survey.
 		`,
 	},
 	{
