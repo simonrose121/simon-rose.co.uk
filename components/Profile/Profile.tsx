@@ -60,18 +60,16 @@ export const Profile: React.FC = () => {
 					development and delivery of complex software projects across finance, education and academia.
 				</p>
 				<p>
-					I run my own software company,{' '}
+					I&apos;m currently working as Principal Engineer at{' '}
+					<Link href="https://www.thenational.academy/" className="inline underline">
+						Oak National Academy
+					</Link>
+					, after running my{' '}
 					<Link href="https://www.rose.tech" className="inline underline">
-						RoseTech
-					</Link>
-					, and I&apos;m currently working as a Lead Software Engineer at{' '}
-					<Link href="https://www.thrivelearning.com/" className="inline underline">
-						Thrive
-					</Link>
-					, having previously contracted as a Principal Software Engineer and Chief Technology Officer. My
-					technical skills focus on front-end JavaScript and TypeScript development, including React, Angular
-					and Vue. I am also an assessor on the Digital and Technology Solutions Specialist Integrated Degree
-					Apprenticeship, helping to shape the next generation of tech leaders.
+						own software consultancy
+					</Link>{' '}
+					for several years. I am also an assessor on the Digital and Technology Solutions Specialist
+					Integrated Degree Apprenticeship, helping to shape the next generation of tech leaders.
 				</p>
 				<p>
 					I pride myself on my leadership and communication skills. I am exceptional at organisation, process
@@ -98,12 +96,12 @@ export const Profile: React.FC = () => {
 					</Link>
 					.
 				</p>
-				<p>
+				{/* <p>
 					If you&apos;d like my CV in a more traditional format, there is also a{' '}
 					<Link href="/simon-rose-cv.pdf" className="inline underline">
 						PDF version.
 					</Link>
-				</p>
+				</p> */}
 				<p>I’d love to hear from you, please get in touch!</p>
 				<div className="flex gap-4 md:prose-lg">
 					{socialNetworks.map(social => (

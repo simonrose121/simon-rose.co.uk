@@ -9,10 +9,34 @@ export type PositionType = {
 
 export const experiences: Array<PositionType> = [
 	{
+		title: 'Principal Engineer',
+		place: 'Oak National Academy',
+		placeUrl: 'https://www.thenational.academy/',
+		dates: 'April 2024 - ',
+		description: '',
+	},
+	{
+		title: 'Lead End Point Assessor (Part-time)',
+		place: 'Sheffield Hallam University',
+		placeUrl: 'https://www.shu.ac.uk/',
+		dates: 'August 2020 -',
+		description: `
+I was brought in as the first End Point Assessor on the Digital and Technology Solutions Specialist Integrated Degree Apprenticeship run by Sheffield Hallam University. Assessors must be actively working in the software industry and have a minimum of a Master’s degree in the field. The assessment is used by software companies of varying sizes to develop their employees and gear them towards management.
+
+As part of the role, I have:
+
+- Developed an assessment process, including assessment schemes and question frameworks, based on the Government provided standard.
+- Conducted the assessments for 40 apprentices over 3 years, each involving a 2 hour discussion and grading a 10,000 word project report.
+- Onboarded two additional assessors, one in Software Engineering and another in Data Analytics.
+- Improved the process and tracking of the assessments year-on-year, working with the teaching team at Sheffield Hallam.
+- Automated parts of the process such as document generation.
+		`,
+	},
+	{
 		title: 'Director',
 		place: 'RoseTech',
 		placeUrl: 'https://www.rose.tech/',
-		dates: 'May 2020 - ',
+		dates: 'May 2020 - August 2024',
 		description: `
 - Providing software development, technical leadership and software engineering consultancy services to a variety of clients from digital agencies to universities.
 		`,
@@ -21,7 +45,7 @@ export const experiences: Array<PositionType> = [
 		title: 'Lead Software Engineer',
 		place: 'Thrive',
 		placeUrl: 'https://www.thrivelearning.com/',
-		dates: 'October 2023 -',
+		dates: 'October 2023 - April 2024',
 		description: `
 After taking a short career break to [go travelling](/blog/4-months-travelling), I took a role at Thrive to further build my leadership and management experience.
 
@@ -83,23 +107,6 @@ My time as CTO involved:
 - Scaling the business through outsourcing and subscription targets.
 - Aligning the MTa Immersion platform with MTa Learning business strategy.
 - Attending expos and selling the MTa Learning products, including MTa Immersion, on the stand.
-		`,
-	},
-	{
-		title: 'Lead End Point Assessor (Part-time)',
-		place: 'Sheffield Hallam University',
-		placeUrl: 'https://www.shu.ac.uk/',
-		dates: 'August 2020 -',
-		description: `
-I was brought in as the first End Point Assessor on the Digital and Technology Solutions Specialist Integrated Degree Apprenticeship run by Sheffield Hallam University. Assessors must be actively working in the software industry and have a minimum of a Master’s degree in the field. The assessment is used by software companies of varying sizes to develop their employees and gear them towards management.
-
-As part of the role, I have:
-
-- Developed an assessment process, including assessment schemes and question frameworks, based on the Government provided standard.
-- Conducted the assessments for 40 apprentices over 3 years, each involving a 2 hour discussion and grading a 10,000 word project report.
-- Onboarded two additional assessors, one in Software Engineering and another in Data Analytics.
-- Improved the process and tracking of the assessments year-on-year, working with the teaching team at Sheffield Hallam.
-- Automated parts of the process such as document generation.
 		`,
 	},
 	{
