@@ -49,7 +49,7 @@ export const Profile: React.FC = () => {
 			<img
 				src="https://s.gravatar.com/avatar/5a0fd43b00b619257adf46ee7626f254?s=500"
 				alt="Simon Rose profile"
-				className="rounded-full w-48 shadow-lg"
+				className="rounded-lg w-48 shadow-lg"
 			/>
 			<div className="flex text-md flex-col gap-5">
 				<p>Hi, I’m Dr Simon Rose.</p>

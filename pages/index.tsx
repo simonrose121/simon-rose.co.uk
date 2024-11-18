@@ -14,7 +14,7 @@ const Home: NextPage = () => (
 				name="description"
 				content="Simon Rose is software engineer with 10 years of experience and a PhD in Computer Science and Education."
 			/>
-			<link rel="icon" href="/favicon.svg" />
+			<link rel="icon" href="/favicon.jpg" />
 		</Head>
 		<Analytics />
 		<main className="container mx-auto mt-12 flex flex-col gap-14">
