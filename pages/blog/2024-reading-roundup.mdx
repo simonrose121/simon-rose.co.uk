@@ -1,0 +1,153 @@
+import { posts } from 'Content';
+import { ImageLink, BlogPost } from 'Components';
+import Image from 'next/image';
+
+import yearInBooks from '../../public/blog/books2024/yearinbooks.png';
+
+import anxiousGeneration from '../../public/blog/books2024/anxiousgeneration.jpg';
+import determined from '../../public/blog/books2024/determined.jpg';
+import meditationsForMortals from '../../public/blog/books2024/meditationsformortals.jpg';
+import lessIsMore from '../../public/blog/books2024/lessismore.jpg';
+import theSplendidAndTheVile from '../../public/blog/books2024/splendid.jpg';
+
+import theCovenantOfWater from '../../public/blog/books2024/covenantofwater.jpg';
+import theDarkForest from '../../public/blog/books2024/darkforest.jpg';
+import babel from '../../public/blog/books2024/babel.jpg';
+import allTheGlimmeringStars from '../../public/blog/books2024/alltheglimmeringstars.jpg';
+import brittMarieWasHere from '../../public/blog/books2024/brittmarie.jpg';
+
+import ghostOfTsushima from '../../public/blog/books2024/ghostoftsushima.png';
+
+export const post = posts.find(post => post.id === '2024-reading');
+
+### Introduction
+
+2024 was an excellent year for me. I settled into a challenging but fulfilling job after a mini career crisis early in the year, went on several adventurous holidays (skiing, scuba and a trip to Albania!), had many new experiences (including gliding over the Peaks, driving supercars and having major surgery), watched a lot of live sport and settled into a regular rhythm of life after last year's traveling exploits.
+
+I've also continued to read, despite buying a Steam Deck and rediscovering a love for gaming. In 2024, I read [59 books (24,334 pages)](https://www.goodreads.com/user/year_in_books/2024/22312452), at a decent average of 429 pages per book. I've also felt more at ease with not pushing myself to read, which was part of my 2024 goal to avoid burnout.
+
+<ImageLink
+	alt="Simon Rose's 2024 Year In Books"
+	src={yearInBooks}
+	width={500}
+	height={200}
+	href="https://www.goodreads.com/user/year_in_books/2024/22312452"
+/>
+
+This post goes over my top 10 books from 2024, 5 fiction and 5 non-fiction. As usual, I have one fiction and one non-fiction book on the go at once, I track my reading on [Goodreads](https://www.goodreads.com/user/show/22312452-simon-rose) and I tend to find new books on there, by asking ChatGPT or Perplexity or by browsing the shelves in Waterstones.
+
+There's also a bonus 'gaming' section for my favourite game I played in 2024.
+
+Let's get started...
+
+### Non-Fiction
+
+#### The Anxious Generation: How the Great Rewiring of Childhood Caused an Epidemic of Mental Illness - Jonathan Haidt
+
+<ImageLink
+	alt="The Anxious Generation book cover"
+	src={anxiousGeneration}
+	width={150}
+	height={200}
+	href="https://www.goodreads.com/book/show/171681821-the-anxious-generation"
+/>
+
+#### Determined: A Science of Life without Free Will - Robert Sapolsky
+
+<ImageLink
+	alt="Determined book cover"
+	src={determined}
+	width={150}
+	height={200}
+	href="https://www.goodreads.com/book/show/83817782-determined"
+/>
+
+#### Meditations for Mortals: Four Weeks to Embrace Your Limitations and Make Time for What Counts - Oliver Burkeman
+
+<ImageLink
+	alt="Meditations for Mortals book cover"
+	src={meditationsForMortals}
+	width={150}
+	height={200}
+	href="https://www.goodreads.com/book/show/205363955-meditations-for-mortals"
+/>
+
+#### Less Is More: How Degrowth Will Save the World - Jason Hickel
+
+<ImageLink
+	alt="Less is More book cover"
+	src={lessIsMore}
+	width={150}
+	height={200}
+	href="https://www.goodreads.com/book/show/53328332-less-is-more"
+/>
+
+#### The Splendid and the Vile: A Saga of Churchill, Family, and Defiance During the Blitz - Erik Larson
+
+<ImageLink
+	alt="The Splendid and the Vile book cover"
+	src={theSplendidAndTheVile}
+	width={150}
+	height={200}
+	href="https://www.goodreads.com/book/show/51187948-the-splendid-and-the-vile"
+/>
+
+### Fiction
+
+#### The Covenant of Water - Abraham Verghese
+
+<ImageLink
+	alt="The Covenant of Water book cover"
+	src={theCovenantOfWater}
+	width={150}
+	height={200}
+	href="https://www.goodreads.com/book/show/180357146-the-covenant-of-water"
+/>
+
+#### The Dark Forest - Liu Cixin (translated by Joel Martinsen)
+
+<ImageLink
+	alt="The Dark Forest book cover"
+	src={theDarkForest}
+	width={150}
+	height={200}
+	href="https://www.goodreads.com/book/show/23168817-the-dark-forest"
+/>
+
+#### Babel - R.F. Kuang
+
+<ImageLink
+	alt="Babel book cover"
+	src={babel}
+	width={150}
+	height={200}
+	href="https://www.goodreads.com/book/show/57945316-babel"
+/>
+
+#### All the Glimmering Stars - Mark T. Sullivan
+
+<ImageLink
+	alt="All the Glimmering Stars book cover"
+	src={allTheGlimmeringStars}
+	width={150}
+	height={200}
+	href="https://www.goodreads.com/book/show/123252117-all-the-glimmering-stars"
+/>
+
+#### Britt-Marie Was Here - Fredrik Backman
+
+<ImageLink
+	alt="Britt-Marie Was Here book cover"
+	src={brittMarieWasHere}
+	width={150}
+	height={200}
+	href="https://www.goodreads.com/book/show/27406704-britt-marie-was-here"
+/>
+
+### Gaming
+
+#### Ghost of Tsushima
+
+<Image alt="Ghost of Tsushima game cover" src={ghostOfTsushima} width={150} height={200} />
+
+export default ({ children }) => <BlogPost meta={post}>{children}</BlogPost>;
