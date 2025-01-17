@@ -12,7 +12,7 @@ const Home: NextPage = () => (
 			<title>Home | Simon Rose</title>
 			<meta
 				name="description"
-				content="Simon Rose is software engineer with 10 years of experience and a PhD in Computer Science and Education."
+				content="Simon Rose is Software Engineer and Tech Leader with a PhD in Computer Science and Education."
 			/>
 			<link rel="icon" href="/favicon.jpg" />
 		</Head>
