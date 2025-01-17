@@ -12,8 +12,8 @@ export const posts: Array<BlogPostMeta> = [
 	{
 		id: '2024-reading',
 		title: '2024 - A Year in Books',
-		description: '',
-		date: new Date('2025-01-20'),
+		description: 'I read 59 books in 2024. I\'ve written about my favourites, along with some stats from 9 years of beating my one book per week reading target.',
+		date: new Date('2025-01-18'),
 		path: '2024-reading-roundup',
 		socialImage: null,
 	},

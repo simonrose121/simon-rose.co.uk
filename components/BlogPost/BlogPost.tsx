@@ -22,7 +22,14 @@ const components = {
 			</h2>
 		);
 	},
-	h4: ({ ...props }) => <h4 className="text-lg -mb-2 mt-4 font-semibold" {...props} />,
+	h4: ({ children, ...props }) => {
+		const idText = children.replace(/ /g, '_').toLowerCase();
+		return (
+			<h2 className="text-xl -mb-2 mt-4 font-semibold" id={idText} {...props}>
+				{children}
+			</h2>
+		);
+	},
 	blockquote: ({ ...props }) => <i className="italics pl-4 text-zinc-200 border-l-4 border-zinc-600" {...props} />,
 };
 
@@ -33,17 +40,35 @@ export const BlogPost: React.FC<{
 	const contentString = renderToString(children);
 
 	const getHeadings = source => {
-		const regex = /<h3>(.*?)<\/h3>/g;
+		const h3Regex = /<h3>(.*?)<\/h3>/g;
+		const h4Regex = /<h4>(.*?)<\/h4>/g;
 
-		if (source.match(regex)) {
-			return source.match(regex).map(heading => {
-				const headingText = heading.replace('<h3>', '').replace('</h3>', '');
-
+		if (source.match(h3Regex)) {
+			return source.match(h3Regex).map(h3Heading => {
+				// Extract h3 text
+				const headingText = h3Heading.replace('<h3>', '').replace('</h3>', '');
 				const link = `#${headingText.replace(/ /g, '_').toLowerCase()}`;
+
+				// Find the content following this h3 heading
+				const h3StartIndex = source.indexOf(h3Heading);
+				const nextH3Index = source.indexOf('<h3>', h3StartIndex + 1);
+				const h3Section =
+					nextH3Index === -1 ? source.slice(h3StartIndex) : source.slice(h3StartIndex, nextH3Index);
+
+				// Extract h4 subheadings within the h3 section
+				const subHeadings = (h3Section.match(h4Regex) || []).map(h4Heading => {
+					const subHeadingText = h4Heading.replace('<h4>', '').replace('</h4>', '');
+					const subLink = `#${subHeadingText.replace(/ /g, '_').toLowerCase()}`;
+					return {
+						text: subHeadingText,
+						link: subLink,
+					};
+				});
 
 				return {
 					text: headingText,
 					link,
+					subHeadings,
 				};
 			});
 		}
@@ -91,6 +116,17 @@ export const BlogPost: React.FC<{
 									<a href={heading.link} className="underline">
 										{heading.text}
 									</a>
+									{heading.subHeadings.length > 0 ? (
+										<ol className="ml-6">
+											{heading.subHeadings.map(subHeading => (
+												<li key={subHeading.text}>
+													<a href={subHeading.link} className="underline">
+														{subHeading.text}
+													</a>
+												</li>
+											))}
+										</ol>
+									) : null}
 								</li>
 							))}
 						</ol>
