@@ -12,7 +12,7 @@ const Home: NextPage = () => (
 			<title>Home | Simon Rose</title>
 			<meta
 				name="description"
-				content="Simon Rose is Software Engineer and Tech Leader with a PhD in Computer Science and Education."
+				content="Dr Simon Rose is software engineer and tech leader with a PhD in Computer Science and Education."
 			/>
 			<link rel="icon" href="/favicon.ico" />
 			<link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png" />
