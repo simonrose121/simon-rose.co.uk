@@ -53,7 +53,8 @@ export const BlogPost: React.FC<{
 				const h3StartIndex = source.indexOf(h3Heading);
 				const nextH3Index = source.indexOf('<h3>', h3StartIndex + 1);
 				// eslint-disable-next-line max-len
-				const h3Section = nextH3Index === -1 ? source.slice(h3StartIndex) : source.slice(h3StartIndex, nextH3Index);
+				const h3Section =
+					nextH3Index === -1 ? source.slice(h3StartIndex) : source.slice(h3StartIndex, nextH3Index);
 
 				// Extract h4 subheadings within the h3 section
 				const subHeadings = (h3Section.match(h4Regex) || []).map(h4Heading => {
@@ -83,7 +84,11 @@ export const BlogPost: React.FC<{
 			<div className="bg-zinc-900 text-white">
 				<Head>
 					<title>{meta.title} | Simon Rose</title>
-					<link rel="icon" href="/favicon.jpg" />
+					<link rel="icon" href="/favicon.ico" />
+					<link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png" />
+					<link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png" />
+					<link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png" />
+					<link rel="manifest" href="/site.webmanifest" />
 					{meta.socialImage ? (
 						<>
 							<meta property="og:title" content={meta.title} />

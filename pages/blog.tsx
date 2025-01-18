@@ -13,9 +13,13 @@ const Blog: NextPage = () => (
 			<meta
 				name="description"
 				// eslint-disable-next-line max-len
-				content="Simon Rose's blog contains posts on the books he's read and his perpetual journey to understand the self."
+				content="Simon Rose's blog contains posts on the books he's read and his perpetual journey to understand himself and the world."
 			/>
-			<link rel="icon" href="/favicon.jpg" />
+			<link rel="icon" href="/favicon.ico" />
+			<link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png" />
+			<link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png" />
+			<link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png" />
+			<link rel="manifest" href="/site.webmanifest" />
 		</Head>
 		<Analytics />
 		<main className="container mx-auto p-5 md:p-0">

@@ -14,7 +14,11 @@ const Home: NextPage = () => (
 				name="description"
 				content="Simon Rose is Software Engineer and Tech Leader with a PhD in Computer Science and Education."
 			/>
-			<link rel="icon" href="/favicon.jpg" />
+			<link rel="icon" href="/favicon.ico" />
+			<link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png" />
+			<link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png" />
+			<link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png" />
+			<link rel="manifest" href="/site.webmanifest" />
 		</Head>
 		<Analytics />
 		<main className="container mx-auto mt-12 flex flex-col gap-14">
