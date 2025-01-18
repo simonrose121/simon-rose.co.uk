@@ -52,9 +52,11 @@ export const BlogPost: React.FC<{
 				// Find the content following this h3 heading
 				const h3StartIndex = source.indexOf(h3Heading);
 				const nextH3Index = source.indexOf('<h3>', h3StartIndex + 1);
-				// eslint-disable-next-line max-len
-				const h3Section =
-					nextH3Index === -1 ? source.slice(h3StartIndex) : source.slice(h3StartIndex, nextH3Index);
+
+				const isLastH3 = nextH3Index === -1;
+				const startSlice = h3StartIndex;
+				const endSlice = isLastH3 ? undefined : nextH3Index;
+				const h3Section = source.slice(startSlice, endSlice);
 
 				// Extract h4 subheadings within the h3 section
 				const subHeadings = (h3Section.match(h4Regex) || []).map(h4Heading => {
