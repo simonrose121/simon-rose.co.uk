@@ -89,7 +89,7 @@ export const Profile: React.FC = () => {
 					<Link href="https://www.strava.com/athletes/20580417" className="inline underline">
 						exercise
 					</Link>{' '}
-					and travel. I&apos;m on a perpetual journey to understand and improve myself, which you can read
+					and travel. I&apos;m on a perpetual journey to understand myself and the world, which you can read
 					more about on my{' '}
 					<Link href="/blog" className="inline underline">
 						blog
