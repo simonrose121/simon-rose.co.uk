@@ -16,12 +16,12 @@ export const experiences: Array<PositionType> = [
 		description: '',
 	},
 	{
-		title: 'Lead End Point Assessor (Part-time)',
+		title: 'Independent Assessor (Part-time)',
 		place: 'Sheffield Hallam University',
 		placeUrl: 'https://www.shu.ac.uk/',
 		dates: 'August 2020 - Present',
 		description: `
-I was brought in as the first End Point Assessor on the Digital and Technology Solutions Specialist Integrated Degree Apprenticeship run by Sheffield Hallam University. Assessors must be actively working in the software industry and have a minimum of a Master’s degree in the field. The assessment is used by software companies of varying sizes to develop their employees and gear them towards management.
+I was brought in as the first Independent Assessor on the Digital and Technology Solutions Specialist Integrated Degree Apprenticeship run by Sheffield Hallam University. Assessors must be actively working in the software industry and have a minimum of a Master’s degree in the field. The assessment is used by software companies of varying sizes to develop their employees and gear them towards management.
 
 As part of the role, I have:
 
