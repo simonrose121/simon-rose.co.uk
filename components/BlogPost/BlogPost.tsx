@@ -31,6 +31,7 @@ const components = {
 		);
 	},
 	blockquote: ({ ...props }) => <i className="italics pl-4 text-zinc-200 border-l-4 border-zinc-600" {...props} />,
+	li: ({ ...props }) => <li className="list-disc ml-7" {...props} />,
 };
 
 export const BlogPost: React.FC<{
