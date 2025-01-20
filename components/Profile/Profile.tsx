@@ -55,9 +55,9 @@ export const Profile: React.FC = () => {
 				<p>Hi, I’m Dr Simon Rose.</p>
 				<p>Welcome to my online CV and blog.</p>
 				<p>
-					I am a software engineer and tech leader with 10+ years of experience building and leading
-					high-performing, innovative and results-driven software development teams. I have led the design,
-					development and delivery of complex software projects across finance, education and academia.
+					I am a software engineer and tech leader experienced in building and leading high-performing,
+					innovative and results-driven software development teams. I have led the design, development and
+					delivery of complex software projects across finance, education and academia.
 				</p>
 				<p>
 					I&apos;m currently working as a Principal Engineer at{' '}
