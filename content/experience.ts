@@ -16,7 +16,7 @@ export const experiences: Array<PositionType> = [
 		description: '',
 	},
 	{
-		title: 'Independent Assessor (Part-time)',
+		title: 'Lead Independent Assessor (Part-time)',
 		place: 'Sheffield Hallam University',
 		placeUrl: 'https://www.shu.ac.uk/',
 		dates: 'August 2020 - Present',
