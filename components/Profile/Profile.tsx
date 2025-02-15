@@ -68,8 +68,15 @@ export const Profile: React.FC = () => {
 					<Link href="https://www.rose.tech" className="inline underline">
 						own software consultancy
 					</Link>{' '}
-					for several years. I am also an assessor on the Digital and Technology Solutions Specialist
-					Integrated Degree Apprenticeship, helping to shape the next generation of tech leaders.
+					for several years. I am also a lead independent assessor on the{' '}
+					<Link
+						// eslint-disable-next-line max-len
+						href="https://www.instituteforapprenticeships.org/apprenticeship-standards/digital-and-technology-solutions-specialist-integrated-degree/"
+						className="inline underline"
+					>
+						Level 7 Digital and Technology Solutions Specialist Integrated Degree Apprenticeship
+					</Link>
+					, helping to shape the next generation of tech leaders.
 				</p>
 				<p>
 					I pride myself on my leadership and communication skills. I am exceptional at organisation, process
