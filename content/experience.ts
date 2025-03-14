@@ -35,7 +35,6 @@ As part of the role, I have:
 	{
 		title: 'Director',
 		place: 'RoseTech',
-		placeUrl: 'https://www.rose.tech/',
 		dates: 'May 2020 - August 2024',
 		description: `
 I started my own software consultancy company in 2020. This involved providing software development, technical leadership and software engineering consultancy services to a variety of clients from digital agencies to universities. My work at 542 Digital, MTa Learning and Loughborough University was all undertaken through RoseTech.

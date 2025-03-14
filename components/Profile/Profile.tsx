@@ -14,7 +14,7 @@ export const Profile: React.FC = () => {
 	const socialNetworks: Array<Social> = [
 		{
 			title: 'Email',
-			href: 'mailto:simon@rose.tech',
+			href: 'mailto:simonrose121@gmail.com',
 			faIcon: faEnvelope,
 		},
 		{
@@ -64,11 +64,8 @@ export const Profile: React.FC = () => {
 					<Link href="https://www.thenational.academy/" className="inline underline">
 						Oak National Academy
 					</Link>
-					, after running my{' '}
-					<Link href="https://www.rose.tech" className="inline underline">
-						own software consultancy
-					</Link>{' '}
-					for several years. I am also a lead independent assessor on the{' '}
+					, after running my own software consultancy, RoseTech, for several years. I am also a lead
+					independent assessor on the{' '}
 					<Link
 						// eslint-disable-next-line max-len
 						href="https://www.instituteforapprenticeships.org/apprenticeship-standards/digital-and-technology-solutions-specialist-integrated-degree/"
