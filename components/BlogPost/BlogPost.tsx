@@ -1,5 +1,6 @@
 import { MDXProvider } from '@mdx-js/react';
 import dayjs from 'dayjs';
+import he from 'he';
 import Head from 'next/head';
 import * as React from 'react';
 import { renderToString } from 'react-dom/server';
@@ -62,9 +63,10 @@ export const BlogPost: React.FC<{
 				// Extract h4 subheadings within the h3 section
 				const subHeadings = (h3Section.match(h4Regex) || []).map(h4Heading => {
 					const subHeadingText = h4Heading.replace('<h4>', '').replace('</h4>', '');
-					const subLink = `#${subHeadingText.replace(/ /g, '_').toLowerCase()}`;
+					const decodedSubHeadingText = he.decode(subHeadingText);
+					const subLink = `#${decodedSubHeadingText.replace(/ /g, '_').toLowerCase()}`;
 					return {
-						text: subHeadingText,
+						text: decodedSubHeadingText,
 						link: subLink,
 					};
 				});
