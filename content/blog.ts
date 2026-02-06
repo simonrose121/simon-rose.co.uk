@@ -10,6 +10,14 @@ export type BlogPostMeta = {
 
 export const posts: Array<BlogPostMeta> = [
 	{
+		id: '2025-reading',
+		title: '2025 - A Year in Books',
+		description: 'I read 54 books in 2024. I\'ve written about my favourites, along with some stats from 10 years of beating my one book per week reading target.',
+		date: new Date('2025-02-03'),
+		path: '2025-reading-roundup',
+		socialImage: 'https://www.simon-rose.co.uk/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fyearinbooks.29ea9717.png&w=1080&q=75',
+	},
+	{
 		id: '2024-reading',
 		title: '2024 - A Year in Books',
 		description: 'I read 59 books in 2024. I\'ve written about my favourites, along with some stats from 9 years of beating my one book per week reading target.',
