@@ -64,7 +64,7 @@ export const Profile: React.FC = () => {
 					<Link href="https://www.thenational.academy/" className="inline underline">
 						Oak National Academy
 					</Link>
-					, stepping up from my role as Principal Engineer. I am also a lead independent assessor on the{' '}
+					, stepping up from my role as Principal Engineer. I am also a Lead Independent Assessor on the{' '}
 					<Link
 						// eslint-disable-next-line max-len
 						href="https://www.instituteforapprenticeships.org/apprenticeship-standards/digital-and-technology-solutions-specialist-integrated-degree/"
