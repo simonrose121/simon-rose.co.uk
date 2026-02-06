@@ -21,7 +21,7 @@ export const experiences: Array<PositionType> = [
 		placeUrl: 'https://www.thenational.academy/',
 		dates: 'April 2024 - January 2026',
 		description: `
-After becoming disillusioned with working in the private sector, I was delighted to join Oak National Academy to work on software that has a direct impact on thousands of teachers and pupils across the UK. As Principal Engineer, my responsibilities have included:
+After becoming disillusioned with working in the private sector, I was delighted to join Oak National Academy to work on software that has a direct impact on thousands of teachers and pupils across the UK. As a Principal Engineer, my responsibilities have included:
 - Setting technical direction and standards for Oak's engineering team through technical decision-making, project support and engineering strategy.
 - Implementing software architecture practices and processes for new areas of Oak's stack (e.g. AI integration) to ensure technical and tooling alignment with a strong developer experience.
 - Providing an engineering perspective on management-level strategic decisions, including squad restructuring for strategic shifts.

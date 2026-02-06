@@ -60,12 +60,11 @@ export const Profile: React.FC = () => {
 					delivery of complex software projects across finance, education and academia.
 				</p>
 				<p>
-					I&apos;m currently working as a Principal Engineer at{' '}
+					I&apos;m currently working as Interim Head of Engineering at{' '}
 					<Link href="https://www.thenational.academy/" className="inline underline">
 						Oak National Academy
 					</Link>
-					, after running my own software consultancy, RoseTech, for several years. I am also a lead
-					independent assessor on the{' '}
+					, stepping up from my role as Principal Engineer. I am also a lead independent assessor on the{' '}
 					<Link
 						// eslint-disable-next-line max-len
 						href="https://www.instituteforapprenticeships.org/apprenticeship-standards/digital-and-technology-solutions-specialist-integrated-degree/"
@@ -73,7 +72,8 @@ export const Profile: React.FC = () => {
 					>
 						Level 7 Digital and Technology Solutions Specialist Integrated Degree Apprenticeship
 					</Link>
-					, helping to shape the next generation of tech leaders.
+					, helping to shape the next generation of tech leaders. From 2020 to 2023, I ran my own software
+					consultancy, RoseTech.
 				</p>
 				<p>
 					I pride myself on my leadership and communication skills. I am exceptional at organisation, process
