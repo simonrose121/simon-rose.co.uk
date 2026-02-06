@@ -26,4 +26,7 @@
 		"javascript",
 		"typescript"
 	],
+	"editor.quickSuggestions": {
+		"other": "off"
+	},
 }
