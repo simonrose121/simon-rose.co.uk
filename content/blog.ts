@@ -12,8 +12,8 @@ export const posts: Array<BlogPostMeta> = [
 	{
 		id: '2025-reading',
 		title: '2025 - A Year in Books',
-		description: 'I read 54 books in 2025. I\'ve written about my favourites, along with some stats from 10 years of beating my one book per week reading target.',
-		date: new Date('2026-02-06'),
+		description: 'I read 56 books in 2025. I\'ve written about my favourites, along with some stats from 10 years of beating my one book per week reading target.',
+		date: new Date('2026-02-13'),
 		path: '2025-reading-roundup',
 		socialImage: 'https://www.simon-rose.co.uk/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fyearinbooks.8627cb6c.png&w=640&q=75',
 	},
